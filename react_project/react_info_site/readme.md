@@ -1,4 +1,3 @@
 # **coding**<span style="color: green">BY</span>**anthony**
-## react project
+## react info site
 <hr style="border-width: 3px;">
-
