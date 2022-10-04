@@ -1,2 +1,2 @@
-const testUI = document.querySelector("#jstest-el");
-testUI.textContent = `js is running`;
+const rootEl = document.querySelector('#root');
+const root = createRoot(rootEl);
