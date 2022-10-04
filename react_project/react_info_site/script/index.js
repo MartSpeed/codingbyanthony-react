@@ -1,1 +1,1 @@
-reactDOM.render(<h1>this is a test</h1>, document.querySelector("#root"));
+ReactDOM.render(<h1>coding<span id="title-el">BY</span>anthony</h1>, document.querySelector("#root"));
