@@ -1,1 +1,10 @@
-ReactDOM.render(<h1>coding<span id="title-el">BY</span>anthony</h1>, document.querySelector("#root"));
+function Header(){
+    return (
+        <h1>codingBYanthony</h1>
+    );
+}
+
+ReactDOM.render(
+        <Header />,
+    document.querySelector("#root")
+    );
