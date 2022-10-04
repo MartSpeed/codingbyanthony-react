@@ -1,2 +1,1 @@
-const rootEl = document.querySelector('#root');
-const root = createRoot(rootEl);
+ReactDOM.render(<h1>this is still not working, whether with 17 or 18 in react</h1>, document.querySelector("#root"));
