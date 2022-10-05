@@ -8,11 +8,10 @@ function Header(){
     )
 }
 
-function Page(){
-    return (
+function Content(){
+    return(
         <div>
-            <Header />
-                <h1>coding<span id="title-el">BY</span>anthony</h1>
+            <h1>coding<span id="title-el">BY</span>anthony</h1>
             
             <h2>Why I am excited to learn React</h2>
             <ol>
@@ -22,8 +21,21 @@ function Page(){
                 <li>I want to build website for large scale companies</li>
                 <li>I want to learn to turn my imagination into reality using code</li>
             </ol>
+        </div>
+    )
+}
 
-            <footer>"© 2022 Anthony development. All right reserved"</footer>
+function Footer() {
+    return(
+        <footer><small>"© 2022 Anthony development. All right reserved"</small></footer>
+    )
+}
+function Page(){
+    return (
+        <div>
+            <Header />
+            <Content />
+            <Footer />            
         </div>
     );
 }
