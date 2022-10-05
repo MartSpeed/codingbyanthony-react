@@ -8,5 +8,6 @@ body{
     text-transform: uppercase;
 }
 #title-el{
-    color:green
+    color:green;
+    text-transform: uppercase;
 }

@@ -1,16 +1,24 @@
+/*Challenge: 
+
+Create a navbar in JSX:
+    - Use the semantic `nav` element as the parent wrapper
+    - Have an h1 element with the brand name of your "website"
+    - Insert an unordered list for the other nav elements
+        - Inside the `ul`, have three `li`s for "Pricing",
+        "About", and "Contact"
+    - Don't worry about styling yet - it'll just be plain-looking HTML for now
+*/
+
 function Header(){
     return (
-        <p>
-            <h1>coding<span id="title-el">BY</span>anthony</h1>            
-
-            <h3>react info site</h3>
-
-            <br></br>
-
-            <p>why does it only take a single element?</p>
-
-            <p>it seems you have to set up the DOM like a document to be called but it has to be wrapped in an HTML element</p>
-        </p>
+        <nav>
+            <h1>code<span id="title-el">panda</span></h1>
+            <ul>
+                <li>Pricing</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
     );
 }
 
