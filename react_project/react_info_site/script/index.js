@@ -1,17 +1,4 @@
-function Header(){
-    return (
-        <header>
-            <nav className="nav">
-            <img src="../images/S.A.M.E.Logo.jpg" className="nav-logo"></img>
-            <ul className="nav-items">
-                <li>pricing</li>
-                <li>about</li>
-                <li>contact</li>
-            </ul>
-            </nav>
-        </header>
-    )
-}
+import Header from "../components/Header"
 
 function Content(){
     return(
@@ -35,6 +22,7 @@ function Footer() {
         <footer><small>"© 2022 Anthony development. All right reserved"</small></footer>
     )
 }
+
 function Page(){
     return (
         <div>
@@ -45,7 +33,6 @@ function Page(){
     );
 }
 
-// why can the render method only do one DOM element at a time?
 const root = ReactDOM.createRoot(document.querySelector("#root"));
 root.render(
 <Page />
