@@ -11,3 +11,15 @@ body{
     color:green;
     text-transform: uppercase;
 }
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items{
+    list-style: none;
+    display: flex;
+}
+.nav-items > li{
+    padding: 10px;
+}

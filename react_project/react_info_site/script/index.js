@@ -1,8 +1,12 @@
 function Header(){
     return (
         <header>
-            <nav>
-                <li>this is an image for my page</li>
+            <nav className="nav">
+            <ul className="nav-items">
+                <li>pricing</li>
+                <li>about</li>
+                <li>contact</li>
+            </ul>
             </nav>
         </header>
     )
