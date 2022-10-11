@@ -1,6 +1,4 @@
-import Header from "../components/Header";
-
-function Content(){
+export default function Content(){
     return(
         <div>
             <h1>coding<span id="title-el">BY</span>anthony</h1>
@@ -16,24 +14,3 @@ function Content(){
         </div>
     )
 }
-
-function Footer() {
-    return(
-        <footer><small>"© 2022 Anthony development. All right reserved"</small></footer>
-    )
-}
-
-function Page(){
-    return (
-        <div>
-            <Header />
-            <Content />
-            <Footer />            
-        </div>
-    );
-}
-
-const root = ReactDOM.createRoot(document.querySelector("#root"));
-root.render(
-<Page />
-);
