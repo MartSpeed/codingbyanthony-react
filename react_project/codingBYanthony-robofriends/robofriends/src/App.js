@@ -3,8 +3,7 @@ import './App.css';
 import React from "react"
 
 // changing this from a function compenent to a Class component
-class App extends React.Component() {
-  render() {
+export default function App(){
   return (
       <div className="App">
         <header className="App-header">
@@ -23,7 +22,4 @@ class App extends React.Component() {
         </header>
       </div>
     );
-  }
 }
-
-export default App;
