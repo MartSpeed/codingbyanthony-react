@@ -2,4 +2,6 @@
 
 ### *ISSUES*
 ---
-1. changed the functional component to a class component results in a blank HTML document that does not render the code. [RESOLVED] | reverted the class component back to a functional component, however I still do not know why it did not work as a class component for versin react 18
+1. changed the functional component to a class component results in a blank HTML document that does not render the code.
+- [RESOLVED] | reverted the class component back to a functional component, however I still do not know why it did not work as a class component for versin react 18.
+- [QUESTION] | why did the class component not render to the DOM?
