@@ -3,7 +3,7 @@ import './App.css';
 import React, { Component }from "react"
 
 // changing this from a function compenent to a Class component
-class App extends Component (){
+class App extends Component {
   render(){
   return (
       <div className="App">
