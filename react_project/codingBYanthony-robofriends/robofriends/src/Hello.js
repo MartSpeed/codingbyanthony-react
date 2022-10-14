@@ -6,15 +6,18 @@ class Hello extends Component {
     render(){
         return (
             <div> 
-                <p>
+                <p className="tc">
                     Grand Rising! My name is John Anthony and my temporary moniker is codingByanthony. This is my react functional component
                 </p>
-                <p>
+                <p className="tc">
                     It seems that while using react version 18, the class component does not render. Moving forward I will continue to use
                     the functional component while continue to practice class components.
                 </p>
+                <p className="tc">
+                    [SOLVED] | The solution to the class issue was that I had parens in front of the react Component.
+                </p>
+                    <h1 className="f1 tc">To make a class component, you have to follow the steps outlined below</h1>
                 <p>
-                    <h1>To make make a class component, you have to follow the steps outlined below</h1>
                     <ol>
                         <li>First you need to run npm install. This creates the react app environment you will be working in.</li>
                         <li>Once npm is installed, be sure to test it bur running npm run start to make sure all package.json script calls work.</li>
