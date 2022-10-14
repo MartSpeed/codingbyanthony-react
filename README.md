@@ -8,7 +8,7 @@
 ### *Daily Log*
 ---
 - Day 1: started the create react app for robo friends in ZTM(38%), ending today on the Class vs. Functional App.js
-
+- Day 2: started on Class vs. Functional Apps.js for robofriend project in ZTM(39%), ending today on the "Your first Class component" [work], working on a bug using dates and times and getting the difference using database calls converted to functional components and returned on a CSV file
 ## **Knowledge I plan to come back to in tandem to my current study practices**
 
 ---
