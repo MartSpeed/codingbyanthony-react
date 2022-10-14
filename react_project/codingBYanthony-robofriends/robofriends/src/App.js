@@ -1,9 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import React from "react"
+import React, { Component }from "react"
 
 // changing this from a function compenent to a Class component
-export default function App(){
+class App extends Component (){
+  render(){
   return (
       <div className="App">
         <header className="App-header">
@@ -22,4 +23,6 @@ export default function App(){
         </header>
       </div>
     );
+  }
 }
+export default App;
