@@ -6,3 +6,5 @@
 - [RESOLVED] | reverted the class component back to a functional component, however I still do not know why it did not work as a class component for versin react 18.
 - [QUESTION] | why did the class component not render to the DOM?
     -[SOLVED] | I had open/close parens in front of the class Component
+2. Git wasnt pushing my branch for the repo
+    - [SOLVED] I had to include the origin name for the repo. git push <remote> <branch>
