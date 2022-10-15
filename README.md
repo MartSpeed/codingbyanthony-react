@@ -1,5 +1,5 @@
 # coding<span style="color: green">**BY**</span>anthony-react projects
-# **code100**
+# **#code100**
 <p>I have already started my coding journey and am currently 9 days into my new job position as a Full Stack Developer. However,I know that I still have much to learn. While I do have my Github repo lights to go off of and recount my work and experience. I am going to start my code100 journlaing today on Wednesday October 12th, 2022 @ 2300</p>
 
 <br>
@@ -8,7 +8,17 @@
 ### *Daily Log*
 ---
 - Day 1: started the create react app for robo friends in ZTM(38%), ending today on the Class vs. Functional App.js
+<br>
+<br>
 - Day 2: started on Class vs. Functional Apps.js for robofriend project in ZTM(39%), ending today on the "Your first Class component" [work], working on a bug using dates and times and getting the difference using database calls converted to functional components and returned on a CSV file
+<br>
+<br>
+- Day 3: created the start and styling of the robofriends using the link [Robofriend](https://robohash.org/) to pull the website API and use the components and props with prop destructuring for a more DRY code approach and succinct coding practices. Used tachyon css library to assist in styling to save work time flow. ZTM badge states that I am on Day 4 but I must have missed a day, but I will record each day like this that I have coded on my own terms as well. More is better so long as I do it everyday.
+<br>
+<br>
+    - *WORK* : I am in themiddle of creating a calendar and punch in and punch out time entry, as well as a calculation to recognize the time between the last punch in and punch out from the current date to get proper time vales. *manipulating dates is freaking difficult*. My weekend project will deal with created calendars and making dates for more dynamic solution and code reinforcement using thr Date and time methods.
+<br>
+<br>
 ## **Knowledge I plan to come back to in tandem to my current study practices**
 
 ---
