@@ -16,7 +16,9 @@
 <br>
 
 - Day 3: created the start and styling of the robofriends using the link [Robofriend](https://robohash.org/) to pull the website API and use the components and props with prop destructuring for a more DRY code approach and succinct coding practices. Used tachyon css library to assist in styling to save work time flow. ZTM badge states that I am on Day 4 but I must have missed a day, but I will record each day like this that I have coded on my own terms as well. More is better so long as I do it everyday.
-    - *WORK* : I am in themiddle of creating a calendar and punch in and punch out time entry, as well as a calculation to recognize the time between the last punch in and punch out from the current date to get proper time vales. *manipulating dates is freaking difficult*. My weekend project will deal with created calendars and making dates for more dynamic solution and code reinforcement using thr Date and time methods.
+<blockquote>
+    - <em style="color: orange"><strong>WORK</strong></em> : I am in themiddle of creating a calendar and punch in and punch out time entry, as well as a calculation to recognize the time between the last punch in and punch out from the current date to get proper time vales. <em><strong>manipulating dates is freaking difficult</strong></em>. My weekend project will deal with created calendars and making dates for more dynamic solution and code reinforcement using thr Date and time methods.
+</blockquote>
 
 <br>
 <br>
