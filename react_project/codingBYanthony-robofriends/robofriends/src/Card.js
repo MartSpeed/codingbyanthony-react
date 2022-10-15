@@ -1,10 +1,7 @@
-// Card Component
-import React from "react";
-
 const Card = () => {
     return(
-        <div>
-            <img alt ="robot" src=""/>
+        <div className="bg-light-green">
+            <img alt ="robot" src="https://robohash.org/test?200x200"/>
             <div>
                 <h2>Albedo</h2>
                 <p>Alnedo@gmail.com</p>

@@ -10,7 +10,11 @@ const root = ReactDOM.createRoot(document.querySelector('#root'));
 root.render(
   <React.StrictMode>
     <Header />
-    <Card />
+    <div>
+      <Card />
+      <Card />
+      <Card />
+    </div>
   </React.StrictMode>
 );
 
