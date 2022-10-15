@@ -1,14 +1,15 @@
 // Card Component
-import React, {Component} from "react"
-import "./index.css"
+import React from "react";
 
-class Card extends Component{
-    render(){
-        return(
+const Card = () => {
+    return(
+        <div>
+            <img alt ="robot" src=""/>
             <div>
-                I am the Card Component.
-            </div>
-        );
-    }
+                <h2>Albedo</h2>
+                <p>Alnedo@gmail.com</p>
+            </div>            
+        </div>
+    );
 }
 export default Card;

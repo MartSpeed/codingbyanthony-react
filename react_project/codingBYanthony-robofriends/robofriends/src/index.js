@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Header from "./Header"
+import Header from "./Header";
+import Card from "./Card";
 import reportWebVitals from './reportWebVitals';
 import "tachyons";
 
@@ -9,6 +10,7 @@ const root = ReactDOM.createRoot(document.querySelector('#root'));
 root.render(
   <React.StrictMode>
     <Header />
+    <Card />
   </React.StrictMode>
 );
 
