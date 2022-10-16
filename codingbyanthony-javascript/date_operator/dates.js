@@ -16,4 +16,39 @@ console.log(today.toString());
 
 /**
  * creating dates with a time value
+ * time values take in milliseconds as the default value
  */
+today = new Date(929397621000);
+console.log(today.toString());
+
+/**
+ * creating dates, with a dat/time string
+ */
+
+today = new Date("October 16, 2022 13:30:30");
+console.log(today.toString());
+
+// grab the current date, which is the day of the month
+today = new Date();
+console.log(today.getDate());
+
+// grab the day, which is the week day as a number
+// days of the week are also 0 indexed
+today = new Date();
+console.log(today.getDay());
+
+// get full year
+today = new Date();
+console.log(today.getFullYear());
+
+// get hours
+today = new Date();
+console.log(today.getHours());
+
+// get milliseconds
+today = new Date();
+console.log(today.getMilliseconds());
+
+// get minutes
+today = new Date();
+console.log(today.getMinutes());
