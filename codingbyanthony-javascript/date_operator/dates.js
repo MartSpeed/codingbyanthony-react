@@ -52,3 +52,38 @@ console.log(today.getMilliseconds());
 // get minutes
 today = new Date();
 console.log(today.getMinutes());
+
+// get month
+// returns month in the 0 index
+today = new Date();
+console.log(today.getMonth());
+
+// git seconds
+today = new Date();
+console.log(today.getSeconds());
+
+// get time
+// displays time in milliseconds
+today = new Date();
+console.log(today.getTime());
+
+// there are getters and setters for time values
+today = new Date();
+today.setFullYear(2023);
+console.log(today.toString());
+
+// how to calculate elapsed time
+startTime = new Date();
+endTime - new Date();
+
+let time_difference = endTime.getTime() - startTime.getTime();
+console.log(time_difference);
+
+function timeDifference() {
+    for(let i = 0; i < 100000000; i++){
+
+    }
+}
+// difference of time function
+timeDifference();
+
