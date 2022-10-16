@@ -73,14 +73,14 @@ today.setFullYear(2023);
 console.log(today.toString());
 
 // how to calculate elapsed time
-startTime = new Date();
-endTime - new Date();
+startTime = new Date(2022);
+endTime = new Date(2023);
 
 let time_difference = endTime.getTime() - startTime.getTime();
 console.log(time_difference);
 
 function timeDifference() {
-    for(let i = 0; i < 100000000; i++){
+    for(let i = 0; i < 100000000000; i++){
 
     }
 }
