@@ -1,0 +1,1 @@
+// CardList to be drawn from parent Card to render the card list without using hard coding values to keep DRY formula
