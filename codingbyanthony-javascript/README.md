@@ -23,5 +23,5 @@
 
 ## Date Operator <span style="color:orange">**[new Date()]**</span>
 <p>
-    This small project is to help me get more familiar with using the Date function and working with time value. These values have been hard to manipulate, but it is more towards not working with them as a whole.
+    This small project is to help me get more familiar with using the Date function and working with time value. These values have been hard to manipulate, but it is more towards working with them as a whole to get more familiar and reinforce their use in day to day coding.
 </p>
