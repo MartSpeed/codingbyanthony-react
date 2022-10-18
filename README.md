@@ -24,6 +24,12 @@
 
 - Day 4: ZTM(40%) finished the create app 2 section. Going to pause here to go over the .map() method and do more exercises to reinforce the understanding of how it is used and its breakdown to help destructure other peoples code when I come across the method again.
 
+- Day 5: ZTM(42%)
+
+<br>
+
+- Day 6: ZTM(%)
+
 <br>
 <br>
 <br>
