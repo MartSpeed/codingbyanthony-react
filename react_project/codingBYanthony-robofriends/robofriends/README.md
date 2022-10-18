@@ -1,20 +1,35 @@
-# codingBYanthony
-## **#code100**
+# coding<span style="color: green">**BY**</span>anthony
 
-## REACT
-### PROPS
+## <span style="color: orange">**#code100**</span>
+
+---
+
+## <em>**REACT**</em>
+
+<br>
+
+### - **PROPS**
 <p>
     PROPS are simply objects that are derived from STATE
 </p>
 
-### STATES
+### - **STATES**
 <p>
     STATE is a description of your App. STATE is an object that describes your application. STATE is able to change, the values of the object you are manipulating.
 </p>
 
+<ul>
+    <li>
+        what is the best way to setup STATE components?
+    </li>
+    <li>
+        how do I set up state components?
+    </li>
+</ul>
+
 <br>
 
-### *ISSUES*
+### <span style="color: red">*ISSUES*</span>
 ---
 
 1. changed the functional component to a class component results in a blank HTML document that does not render the code.
