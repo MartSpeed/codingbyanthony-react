@@ -7,12 +7,12 @@ import React from "react";
 
 const App = () => {
     return(
-        <React.Fragment>
+        <div className="tc">
             <Header />
             <ROBOFRIENDS_HEADER />
             <SearchBox />
             <CardList robots={robots}/>
-        </React.Fragment>
+        </div>
     );
 }
 

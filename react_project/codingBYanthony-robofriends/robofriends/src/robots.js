@@ -54,9 +54,39 @@ export const robots = [
         email: "Rawr@gmail.com"
     },
     {
-        id : 1,
+        id : 10,
         name: "Emmanuel",
         username: "Zandestine",
         email: "ffxiv-bible@gmail.com"
+    },
+    {
+        id : 11,
+        name: "Asia",
+        username: "Karaoka Goddess",
+        email: "elephant@gmail.com"
+    },
+    {
+        id : 12,
+        name: "Jerrald THE Jr.",
+        username: "Panash",
+        email: "MaZuJu@gmail.com"
+    },
+    {
+        id : 13,
+        name: "Cheyo",
+        username: "HeyoItsCheyo",
+        email: "PupCuddlerExtreme@gmail.com"
+    },
+    {
+        id : 14,
+        name: "Lexie",
+        username: "Sans the Conqeror",
+        email: "MugiEin@gmail.com"
+    },
+    {
+        id : 15,
+        name: "Hannah",
+        username: "thatgirlfromuh",
+        email: "checkthecamera@gmail.com"
     }
 ]
