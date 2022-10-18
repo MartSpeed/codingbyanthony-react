@@ -15,12 +15,12 @@
 
 ### - **STATES**
 <p>
-    STATE is a description of your App. STATE is an object that describes your application. STATE is able to change, the values of the object you are manipulating.
+    STATE is a description of your App. STATE is an object that describes your application. STATE is able to change the values of the object you are manipulating.
 </p>
 
 <ul>
     <li>
-        what is the best way to setup STATE components?
+        what is the best way to setup STATE components? | to declare a STATE you make a CONSTRUCTOR
     </li>
     <li>
         how do I set up state components?

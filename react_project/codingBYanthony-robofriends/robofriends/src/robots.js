@@ -19,8 +19,8 @@ export const robots = [
     },
     {
         id : 4,
-        name: "Brian",
-        username: "Haiku",
+        name: "Haiku",
+        username: "BrainKun",
         email: "Lia@gmail.com"
     },
     {
