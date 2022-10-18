@@ -1,13 +1,11 @@
-import React, {Component} from "react"
+import React from "react"
 
-class SearchBox extends Component{
-    render(){
-        return(
-            <React.Fragment>
-
-            </React.Fragment>
-        );
-    }
+const SearchBox = () => {
+    return(
+        <React.Fragment>
+            <input type="search" placeholder="search robots"/>
+        </React.Fragment>
+    );
 }
 
 export default SearchBox;
