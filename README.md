@@ -24,11 +24,11 @@
 
 - Day 4: ZTM(40%) finished the create app 2 section. Going to pause here to go over the .map() method and do more exercises to reinforce the understanding of how it is used and its breakdown to help destructure other peoples code when I come across the method again.
 
-- Day 5: ZTM(42%)
+- Day 5: ZTM(42%) went back to complete some sections in the DOM area to reinforce the super() operator, constructor operator practice. Took the rest of the day off. Had a bad migraine and nauseous feeling all day.
 
 <br>
 
-- Day 6: ZTM(%)
+- Day 6: ZTM(44%) completed the react app 3 portion. Picked up on how to better understand the STATE, CONSTRUCTOR, SUPER, and PROP operator. More practice with the filter method is needed, but I understand how to build them. Need more practice with the .map() method as well for setting them up and implementation. I also need to stop the amount of time that I procrastinate as well, i waste about 1 - 2 hours each day just trying to get started. Will add some extra videos to practice these isolated methods and implement them when I go into work as well. The STATE component needs a lot of review and practice before I move on to the next section, even though it is only styling.
 
 <br>
 <br>
