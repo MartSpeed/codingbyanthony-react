@@ -4,6 +4,7 @@ import CardList from "./CardList";
 import SearchBox from "./SearchBox";
 import {robots} from "./robots"
 import React, { Component } from "react";
+import "./index.css";
 class App extends Component {
     constructor() {
         super();
