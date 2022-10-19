@@ -1,10 +1,11 @@
 import React, {Component} from "react";
+import "./index.css"
 
 class ROBOFRIENDS_HEADER extends Component{
     render(){
         return(
             <div>
-                <h1>robofriends</h1>
+                <h1 className="sega_font f1">robofriends</h1>
             </div>
         )
     }
