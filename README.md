@@ -32,7 +32,7 @@
 
 <br>
 
-- Day 7" ZTM(46%) completed the react app styling portion of ZTM, went back to the advanced JS section to get reinforcement for the constructor, super method, .filter() operatoer, .map() operator, and other advanced JS methods. I go back to keep using them and adding it to old projects to build familiarity and understanding. In addition to the, converting old vanilla JS projects to react apps is a very fun personal challenge with plenty of repetition. I will continue grabbing old projects and converting them this way. For now I will continue getting in depth practice will props, state and more react methods
+- Day 7: ZTM(46%) completed the react app styling portion of ZTM, went back to the advanced JS section to get reinforcement for the constructor, super method, .filter() operatoer, .map() operator, and other advanced JS methods. I go back to keep using them and adding it to old projects to build familiarity and understanding. In addition to the, converting old vanilla JS projects to react apps is a very fun personal challenge with plenty of repetition. I will continue grabbing old projects and converting them this way. For now I will continue getting in depth practice will props, state and more react methods
 
 <br>
 <br>
