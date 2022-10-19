@@ -31,6 +31,10 @@
 - Day 6: ZTM(44%) completed the react app 3 portion. Picked up on how to better understand the STATE, CONSTRUCTOR, SUPER, and PROP operator. More practice with the filter method is needed, but I understand how to build them. Need more practice with the .map() method as well for setting them up and implementation. I also need to stop the amount of time that I procrastinate as well, i waste about 1 - 2 hours each day just trying to get started. Will add some extra videos to practice these isolated methods and implement them when I go into work as well. The STATE component needs a lot of review and practice before I move on to the next section, even though it is only styling.
 
 <br>
+
+- Day 7" ZTM(46%) completed the react app styling portion of ZTM, went back to the advanced JS section to get reinforcement for the constructor, super method, .filter() operatoer, .map() operator, and other advanced JS methods. I go back to keep using them and adding it to old projects to build familiarity and understanding. In addition to the, converting old vanilla JS projects to react apps is a very fun personal challenge with plenty of repetition. I will continue grabbing old projects and converting them this way. For now I will continue getting in depth practice will props, state and more react methods
+
+<br>
 <br>
 <br>
 
