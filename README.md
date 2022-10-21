@@ -62,6 +62,7 @@
 10. [Twilio | Work](https://www.youtube.com/watch?v=4jUMqutYmyE&list=PLKBmYB72-EUh5w_qHFOJBiuVesSzRj_4R&index=28)
 11. [Mailgun | Work](https://www.youtube.com/watch?v=p4sGlrrWzj4&list=PLKBmYB72-EUh5w_qHFOJBiuVesSzRj_4R&index=29)
 12. [Docker](https://www.youtube.com/watch?v=fqMOX6JJhGo)
+13. [GitLab](https://www.youtube.com/watch?v=PGyhBwLyK2U)
 
 ---
 
