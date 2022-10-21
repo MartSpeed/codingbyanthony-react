@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import "./index.css"
-import "./App.css"
+import "./containers/App.css"
 
 class ROBOFRIENDS_HEADER extends Component{
     render(){
