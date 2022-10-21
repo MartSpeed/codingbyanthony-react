@@ -35,10 +35,18 @@
 - Day 7: ZTM(46%) completed the react app styling portion of ZTM, went back to the advanced JS section to get reinforcement for the constructor, super method, .filter() operatoer, .map() operator, and other advanced JS methods. I go back to keep using them and adding it to old projects to build familiarity and understanding. In addition to the, converting old vanilla JS projects to react apps is a very fun personal challenge with plenty of repetition. I will continue grabbing old projects and converting them this way. For now I will continue getting in depth practice will props, state and more react methods
 
 <br>
+
+- Day 8: ZTM(46%) I took the day off from personal coding due to imminent burnout, I had no more bandwidth to learn or take in information to make it useful to me or to implement.
+
+<br>
+
+- Day 9: ZTM(50%) reinfirced the react state and prop operators as well more destructuring reinforcement. I am going to keep converting old vanilla projects into react apps for that daily practice and start incoroporated the pomodoro technique to help with my time management, so I dont code all day everyday and have proper breaks between work and personal development. There are more items I need to add to my personal backlog so that I start to incorporate them into my daily task and uses for both myself and for work.
+
+<br>
 <br>
 <br>
 
-## **Knowledge I plan to come back to in tandem to my current study practices**
+## **Knowledge Backlog**
 
 ---
 
@@ -47,6 +55,12 @@
 3. [AWS](https://www.youtube.com/watch?v=-FtcnssIpzQ&list=PLKBmYB72-EUh5w_qHFOJBiuVesSzRj_4R&index=23) | Certified Cloud Practioner Complete Video Course
 4. [API's](https://www.youtube.com/watch?v=GZvSYJDk-us&list=PLKBmYB72-EUh5w_qHFOJBiuVesSzRj_4R&index=25) | API's for beginner's; how to use an API(Full Course/Tut)
 5. [Microservices](https://www.youtube.com/watch?v=tuJqH3AV0e8&list=PLKBmYB72-EUh5w_qHFOJBiuVesSzRj_4R&index=36&t=26s) | Microservices Full Course by Edureka
+6. [mySQL stored procedures](https://www.youtube.com/watch?v=yLR1w4tZ36I&list=PLKBmYB72-EUh5w_qHFOJBiuVesSzRj_4R&index=15&t=1s)
+7. [Async Javascript](https://www.youtube.com/watch?v=PoRJizFvM7s&list=PLKBmYB72-EUh5w_qHFOJBiuVesSzRj_4R&index=4)
+8. [Advanced JS methods and operators](https://www.youtube.com/watch?v=rRgD1yVwIvE&list=PLKBmYB72-EUh5w_qHFOJBiuVesSzRj_4R&index=6)
+9. [Weekend Project | Budget App](https://www.youtube.com/watch?v=fDffQYs2WB0&list=PLKBmYB72-EUh5w_qHFOJBiuVesSzRj_4R&index=3)
+10. [Twilio | Work](https://www.youtube.com/watch?v=4jUMqutYmyE&list=PLKBmYB72-EUh5w_qHFOJBiuVesSzRj_4R&index=28)
+11. [Mailgun | Work](https://www.youtube.com/watch?v=p4sGlrrWzj4&list=PLKBmYB72-EUh5w_qHFOJBiuVesSzRj_4R&index=29)
 
 ---
 
