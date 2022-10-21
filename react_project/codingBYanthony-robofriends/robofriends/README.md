@@ -11,11 +11,24 @@
 ### - **PROPS**
 <p>
     PROPS are simply objects that are derived from STATE
+    <ul>
+        <li>PROPS are immutable like const</li>
+        <li>STATES are mutable like let and var</li>
+    </ul>
 </p>
 
 ### - **STATES**
 <p>
     STATE is a description of your App. STATE is an object that describes your application. STATE is able to change the values of the object you are manipulating.
+    <ul>
+        <li>
+            ```
+
+            this.state.<name of the value, property or attribute your using>
+
+            ```
+        </li>
+    </ul>
 </p>
 
 <ul>

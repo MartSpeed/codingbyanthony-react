@@ -5,6 +5,7 @@ import Header from "./Header";
 import ROBOFRIENDS_HEADER from "./ROBOFRIEND_HEADER";
 import CardList from "./CardList";
 import SearchBox from "./SearchBox";
+import Scroll from "./Scroll";
 
 // smart components have a state component that manipulates information
 
@@ -40,7 +41,9 @@ class App extends Component {
                     <Header />
                     <ROBOFRIENDS_HEADER />
                     <SearchBox searchChange={this.search}/>
-                    <CardList robots={filteredRobots}/>
+                    <Scroll>
+                        <CardList robots={filteredRobots}/>
+                    </Scroll>
                 </div>
             );
         }
