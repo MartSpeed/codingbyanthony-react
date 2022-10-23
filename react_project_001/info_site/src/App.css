@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: darkgrey;
+}
+
+span{
+    color: green;
+}
+
+.container{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navbar{
+    margin: 0;
+    padding: 4px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+.header{
+    text-align: center;
+    font-family: 'Covered By Your Grace', cursive;
+}
+.main-content{
+    margin: 0;
+    padding: 4px;
+    background-color: white;
+}
+.footer{
+    margin: 0;
+    padding: 4px;
+    text-align: center;
+    background-color: aqua;
+    font-family: 'Covered By Your Grace', cursive;
+
+    display: flex;
+    vertical-align: center;
+    justify-content: center;
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
