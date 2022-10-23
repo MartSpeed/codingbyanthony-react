@@ -43,6 +43,18 @@
 - Day 9: ZTM(50%) reinfirced the react state and prop operators as well more destructuring reinforcement. I am going to keep converting old vanilla projects into react apps for that daily practice and start incoroporated the pomodoro technique to help with my time management, so I dont code all day everyday and have proper breaks between work and personal development. There are more items I need to add to my personal backlog so that I start to incorporate them into my daily task and uses for both myself and for work.
 
 <br>
+
+- Day 10: ZTM(51%)
+
+<br>
+
+- Day 11: ZTM(51%)
+
+<br>
+
+- Day 12: ZTM(51%)
+
+<br>
 <br>
 <br>
 
