@@ -22,7 +22,7 @@ const ages = [33,12,20,16,5,54,21,44,61,13,15,45,25,64,32];
 //     console.log(`start: ${company.start}, end: ${company.end}`);
 // })
 
-// filter out things from the array
+// FILTER out things from the array
 
 //  filter for loop method get 21 and older
 // let canDrink = [];
@@ -47,9 +47,34 @@ const ages = [33,12,20,16,5,54,21,44,61,13,15,45,25,64,32];
 // console.log(retailCompanies)
 
 //  get companies that l;asted 10 years or more
-const lastedTenYears = companies.filter(company => (company.end - company.start) >= 10 );
-console.log(lastedTenYears)
+// const lastedTenYears = companies.filter(company => (company.end - company.start) >= 10 );
+// console.log(lastedTenYears)
 
-// map
-// sort
+// MAP can create new arrays from the current array
+
+// create array of company names
+// const companyNames = companies.map(company => 1)
+// const testMap = companies.map(company => `${company.name} [${company.start} - ${company.end}]`)
+// console.log(testMap)
+
+// const agesSquare = ages
+// .map(age => Math.sqrt(age))
+// .map(age => age * 2)
+// console.log(agesSquare)
+
+// SORT 
+
+// sort companies by start year
+// const sortedCompanies = companies.sort(function(c1, c2){
+//     if(c1.start > c2.start){
+//         return 1
+//     }else{
+//         return -1
+//     }
+// })
+
+// sort single line method with a ternary operator for conditional
+const sortedCompanies = companies.sort((a,b) => a.start > b.start ? 1 : -1)
+console.log(sortedCompanies)
+
 // reduce
