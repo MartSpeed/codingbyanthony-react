@@ -8,25 +8,10 @@ import SearchBox from "../components/SearchBox";
 import Scroll from "../components/Scroll";
 import "../robots";
 
-// smart components have a state component that manipulates information
-
 export default function App() {
-    // constructor() {
-    //     super();
-    //     this.state = {
-    //         robots: [],
-    //         searchfield: ""
-    //     }
-    // }
 
     const [robots, setRobots] = useState([]);
     const [search, setSearch] = useState('');
-
-    // componentDidMount() {
-    //     fetch('https://jsonplaceholder.typicode.com/users')
-    //     .then(response=> response.json())
-    //     .then(users=> this.setState({robots: users}));       
-    // }
 
     useEffect(()=> {
         fetch('https://jsonplaceholder.typicode.com/users')
@@ -34,12 +19,11 @@ export default function App() {
         .then(users=> {setRobots(users)});
     }, [])
 
-    // state function for searchBox functionality
+    // state function for searchBox
     const onSearch = (event) => {
         setSearch(event.target.value);
     }
     
-    // const { robots, search } = this.state;
     const filteredRobots = robots.filter(robots => {
     return robots.name.toLowerCase().includes(search.toLowerCase());
     })
