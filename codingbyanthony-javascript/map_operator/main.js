@@ -78,8 +78,21 @@ const ages = [33,12,20,16,5,54,21,44,61,13,15,45,25,64,32];
 // console.log(sortedCompanies)
 
 // sort ages from lowest to highest
-const sortAges = ages.sort((a,b) => a-b)
-console.log(sortAges)
+// const sortAges = ages.sort((a,b) => a-b)
+// console.log(sortAges)
 
 
 // reduce
+// add all ages together
+// let ageSum = 0;
+// for(let i = 0; i < ages.length; ++i){
+//     ageSum += ages[i];
+// }
+// console.log(ageSum)
+
+// ageSum using reduce
+// const ageReduce = ages.reduce(function(total, age){
+//     return total + age;
+// }, 0)
+const ageReduce = ages.reduce((total, age) => total + age, 0);
+console.log(ageReduce)
