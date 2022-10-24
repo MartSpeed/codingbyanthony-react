@@ -74,7 +74,12 @@ const ages = [33,12,20,16,5,54,21,44,61,13,15,45,25,64,32];
 // })
 
 // sort single line method with a ternary operator for conditional
-const sortedCompanies = companies.sort((a,b) => a.start > b.start ? 1 : -1)
-console.log(sortedCompanies)
+// const sortedCompanies = companies.sort((a,b) => a.start > b.start ? 1 : -1)
+// console.log(sortedCompanies)
+
+// sort ages from lowest to highest
+const sortAges = ages.sort((a,b) => a-b)
+console.log(sortAges)
+
 
 // reduce
