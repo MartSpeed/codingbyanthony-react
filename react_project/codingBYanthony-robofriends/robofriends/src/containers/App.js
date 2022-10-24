@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useState, useEffect } from "react";
 import "../containers/App.css";
 import "../index.css";
 import Header from "../Header";
@@ -10,44 +10,50 @@ import "../robots";
 
 // smart components have a state component that manipulates information
 
-class App extends Component {
-    constructor() {
-        super();
-        this.state = {
-            robots: [],
-            searchfield: ""
-        }
-    }
+export default function App() {
+    // constructor() {
+    //     super();
+    //     this.state = {
+    //         robots: [],
+    //         searchfield: ""
+    //     }
+    // }
 
-    componentDidMount() {
+    const [robots, setRobots] = useState([]);
+    const [search, setSearch] = useState('');
+
+    // componentDidMount() {
+    //     fetch('https://jsonplaceholder.typicode.com/users')
+    //     .then(response=> response.json())
+    //     .then(users=> this.setState({robots: users}));       
+    // }
+
+    useEffect(()=> {
         fetch('https://jsonplaceholder.typicode.com/users')
         .then(response=> response.json())
-        .then(users=> this.setState({robots: users}));       
-    }
+        .then(users=> {setRobots(users)});
+    })
 
     // state function for searchBox functionality
-    search = (event) => {
-        this.setState({searchfield : event.target.value});
+    const onSearch = (event) => {
+        setSearch(event.target.value);
     }
-
-    render() {
-        const { robots, searchfield } = this.state;
+    
+    // const { robots, search } = this.state;
     const filteredRobots = robots.filter(robots => {
-        return robots.name.toLowerCase().includes(searchfield.toLowerCase());
-        })
-        return !robots.length ? 
-        <h1 className="sega_font f1">Loading</h1> :
-        (
-            <div className="tc">
-                <Header />
-                <ROBOFRIENDS_HEADER />
-                <SearchBox searchChange={this.search}/>
-                <Scroll>
-                    <CardList robots={filteredRobots}/>
-                </Scroll>
-            </div>
-        );
-    }
+    return robots.name.toLowerCase().includes(search.toLowerCase());
+    })
+    console.log(robots, search);
+    return !robots.length ? 
+    <h1 className="sega_font f1">Loading</h1> :
+    (
+        <div className="tc">
+            <Header />
+            <ROBOFRIENDS_HEADER />
+            <SearchBox searchChange={onSearch}/>
+            <Scroll>
+                <CardList robots={filteredRobots}/>
+            </Scroll>
+        </div>
+    );
 }
-
-export default App;
