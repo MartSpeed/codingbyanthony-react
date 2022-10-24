@@ -44,15 +44,15 @@
 
 <br>
 
-- Day 10: ZTM(51%)
+- Day 10: ZTM(51%) did not code, due to a migraine that rendered me defunct
 
 <br>
 
-- Day 11: ZTM(51%)
+- Day 11: ZTM(51%) did not code, due to a migraine that rendered me defunct
 
 <br>
 
-- Day 12: ZTM(51%)
+- Day 12: ZTM(53%) worked on a few drills to push some reinforcement for the useState Hook, the useEffect Hook, and array methods: filter(), map(), sort(), and reduce for functionality and single code line practice. Need to do more advanced JS practices and incorporate them in each of my files when used to gain more understanding. The hooks still confuse me, so I will address some paired programming and so more drills to get a better handle on how to handle them.
 
 <br>
 <br>
