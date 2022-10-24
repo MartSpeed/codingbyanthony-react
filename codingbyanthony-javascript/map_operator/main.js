@@ -42,8 +42,13 @@ const ages = [33,12,20,16,5,54,21,44,61,13,15,45,25,64,32];
 // const canDrink = ages.filter(age => age >= 21)
 // console.log(canDrink);
 
-const retailCompanies = companies.filter(company => company.start >= 1980)
-console.log(retailCompanies)
+// companies that started in the 80s
+// const retailCompanies = companies.filter(company => company.start >= 1980 && company.start < 1990)
+// console.log(retailCompanies)
+
+//  get companies that l;asted 10 years or more
+const lastedTenYears = companies.filter(company => (company.end - company.start) >= 10 );
+console.log(lastedTenYears)
 
 // map
 // sort
