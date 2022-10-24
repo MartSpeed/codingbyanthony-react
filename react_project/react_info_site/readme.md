@@ -1,6 +1,9 @@
 # **coding**<span style="color: green">BY</span>**anthony**
+## **#code100**
 ## react info site
 <hr style="border-width: 3px;">
 
-- [x] [issue1] reactDOM.render is not working on my pc
-    - the react framework needs to be used in a liver server on my local drive to work
+## Creating React Info Site
+1. npm install
+2. npx create-react-app <project name>
+3. npm start
