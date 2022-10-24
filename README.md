@@ -22,37 +22,37 @@
 
 <br>
 
-- Day 4: ZTM(40%) finished the create app 2 section. Going to pause here to go over the .map() method and do more exercises to reinforce the understanding of how it is used and its breakdown to help destructure other peoples code when I come across the method again.
+- Day 4: <span style="color: green">ZTM(40%)</span> finished the create app 2 section. Going to pause here to go over the .map() method and do more exercises to reinforce the understanding of how it is used and its breakdown to help destructure other peoples code when I come across the method again.
 
-- Day 5: ZTM(42%) went back to complete some sections in the DOM area to reinforce the super() operator, constructor operator practice. Took the rest of the day off. Had a bad migraine and nauseous feeling all day.
-
-<br>
-
-- Day 6: ZTM(44%) completed the react app 3 portion. Picked up on how to better understand the STATE, CONSTRUCTOR, SUPER, and PROP operator. More practice with the filter method is needed, but I understand how to build them. Need more practice with the .map() method as well for setting them up and implementation. I also need to stop the amount of time that I procrastinate as well, i waste about 1 - 2 hours each day just trying to get started. Will add some extra videos to practice these isolated methods and implement them when I go into work as well. The STATE component needs a lot of review and practice before I move on to the next section, even though it is only styling.
+- Day 5: <span style="color: green">ZTM(42%)</span> went back to complete some sections in the DOM area to reinforce the super() operator, constructor operator practice. Took the rest of the day off. Had a bad migraine and nauseous feeling all day.
 
 <br>
 
-- Day 7: ZTM(46%) completed the react app styling portion of ZTM, went back to the advanced JS section to get reinforcement for the constructor, super method, .filter() operatoer, .map() operator, and other advanced JS methods. I go back to keep using them and adding it to old projects to build familiarity and understanding. In addition to the, converting old vanilla JS projects to react apps is a very fun personal challenge with plenty of repetition. I will continue grabbing old projects and converting them this way. For now I will continue getting in depth practice will props, state and more react methods
+- Day 6: <span style="color: green">ZTM(44%)</span> completed the react app 3 portion. Picked up on how to better understand the STATE, CONSTRUCTOR, SUPER, and PROP operator. More practice with the filter method is needed, but I understand how to build them. Need more practice with the .map() method as well for setting them up and implementation. I also need to stop the amount of time that I procrastinate as well, i waste about 1 - 2 hours each day just trying to get started. Will add some extra videos to practice these isolated methods and implement them when I go into work as well. The STATE component needs a lot of review and practice before I move on to the next section, even though it is only styling.
 
 <br>
 
-- Day 8: ZTM(46%) I took the day off from personal coding due to imminent burnout, I had no more bandwidth to learn or take in information to make it useful to me or to implement.
+- Day 7: <span style="color: green">ZTM(46%)</span> completed the react app styling portion of ZTM, went back to the advanced JS section to get reinforcement for the constructor, super method, .filter() operatoer, .map() operator, and other advanced JS methods. I go back to keep using them and adding it to old projects to build familiarity and understanding. In addition to the, converting old vanilla JS projects to react apps is a very fun personal challenge with plenty of repetition. I will continue grabbing old projects and converting them this way. For now I will continue getting in depth practice will props, state and more react methods
 
 <br>
 
-- Day 9: ZTM(50%) reinfirced the react state and prop operators as well more destructuring reinforcement. I am going to keep converting old vanilla projects into react apps for that daily practice and start incoroporated the pomodoro technique to help with my time management, so I dont code all day everyday and have proper breaks between work and personal development. There are more items I need to add to my personal backlog so that I start to incorporate them into my daily task and uses for both myself and for work.
+- Day 8: <span style="color: green">ZTM(46%)</span> I took the day off from personal coding due to imminent burnout, I had no more bandwidth to learn or take in information to make it useful to me or to implement.
 
 <br>
 
-- Day 10: ZTM(51%) did not code, due to a migraine that rendered me defunct
+- Day 9: <span style="color: green">ZTM(50%)</span> reinforced the react state and prop operators as well more destructuring reinforcement. I am going to keep converting old vanilla projects into react apps for that daily practice and start incoroporated the pomodoro technique to help with my time management, so I dont code all day everyday and have proper breaks between work and personal development. There are more items I need to add to my personal backlog so that I start to incorporate them into my daily task and uses for both myself and for work.
 
 <br>
 
-- Day 11: ZTM(51%) did not code, due to a migraine that rendered me defunct
+- Day 10: <span style="color: green">ZTM(51%)</span> did not code, due to a migraine that rendered me defunct
 
 <br>
 
-- Day 12: ZTM(53%) worked on a few drills to push some reinforcement for the useState Hook, the useEffect Hook, and array methods: filter(), map(), sort(), and reduce for functionality and single code line practice. Need to do more advanced JS practices and incorporate them in each of my files when used to gain more understanding. The hooks still confuse me, so I will address some paired programming and so more drills to get a better handle on how to handle them.
+- Day 11: <span style="color: green">ZTM(51%)</span> did not code, due to a migraine that rendered me defunct
+
+<br>
+
+- Day 12: <span style="color: green">ZTM(53%)</span> worked on a few drills to push some reinforcement for the useState Hook, the useEffect Hook, and array methods: filter(), map(), sort(), and reduce for functionality and single code line practice. Need to do more advanced JS practices and incorporate them in each of my files when used to gain more understanding. The hooks still confuse me, so I will address some paired programming and so more drills to get a better handle on how to handle them.
 
 <br>
 <br>
