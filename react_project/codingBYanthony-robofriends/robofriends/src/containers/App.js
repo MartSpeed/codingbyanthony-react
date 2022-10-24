@@ -32,7 +32,7 @@ export default function App() {
         fetch('https://jsonplaceholder.typicode.com/users')
         .then(response=> response.json())
         .then(users=> {setRobots(users)});
-    })
+    }, [])
 
     // state function for searchBox functionality
     const onSearch = (event) => {
@@ -43,7 +43,7 @@ export default function App() {
     const filteredRobots = robots.filter(robots => {
     return robots.name.toLowerCase().includes(search.toLowerCase());
     })
-    console.log(robots, search);
+    
     return !robots.length ? 
     <h1 className="sega_font f1">Loading</h1> :
     (
