@@ -55,6 +55,10 @@
 - Day 12: <span style="color: green">ZTM(53%)</span> worked on a few drills to push some reinforcement for the useState Hook, the useEffect Hook, and array methods: filter(), map(), sort(), and reduce for functionality and single code line practice. Need to do more advanced JS practices and incorporate them in each of my files when used to gain more understanding. The hooks still confuse me, so I will address some paired programming and so more drills to get a better handle on how to handle them.
 
 <br>
+
+- Day 13: ZTM(%)
+
+<br>
 <br>
 <br>
 
