@@ -94,5 +94,9 @@ const ages = [33,12,20,16,5,54,21,44,61,13,15,45,25,64,32];
 // const ageReduce = ages.reduce(function(total, age){
 //     return total + age;
 // }, 0)
-const ageReduce = ages.reduce((total, age) => total + age, 0);
-console.log(ageReduce)
+// const ageReduce = ages.reduce((total, age) => total + age, 0);
+// console.log(ageReduce)
+
+// reduce, get total years from all companies
+const totalYear = companies.reduce((total, year) => total + (year.end - year.start), 0);
+console.log(totalYear)
