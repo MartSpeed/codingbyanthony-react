@@ -56,7 +56,11 @@
 
 <br>
 
-- Day 13: ZTM(%)
+- Day 13: ZTM(55%) worked on advanced JS to reinforce and practice more arrays and hashmaps for deeper learning and understanding. Started the react ztm course to dive deeper into react as a react dev for work and for overall knowledge
+
+<br>
+
+- Day 14: Web Dev(55%) | React Dev(6%) beginning the monsters rolodex react app to dive deeper into react developing and to reinforce the skills I currently have to build my knowledg and increase my productivity when I work. Need to prioritize better structured time when working and better implment the skills I currently have
 
 <br>
 <br>
