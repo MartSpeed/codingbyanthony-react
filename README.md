@@ -63,6 +63,10 @@
 - Day 14: Web Dev(55%) | React Dev(6%) beginning the monsters rolodex react app to dive deeper into react developing and to reinforce the skills I currently have to build my knowledg and increase my productivity when I work. Need to prioritize better structured time when working and better implment the skills I currently have
 
 <br>
+
+- Day 15: Web Dev(55%) | React Dev(10%) created monster using the map array method to display the monster name on the screen using the class component and the constructor operator and the super method to target the construcor we are using. This reinforcement for using the this.state in the class components helps to understand the precursor to using props and understanding destructuring
+
+<br>
 <br>
 <br>
 
