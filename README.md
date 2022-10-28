@@ -67,6 +67,10 @@
 - Day 15: Web Dev(55%) | React Dev(10%) created monster using the map array method to display the monster name on the screen using the class component and the constructor operator and the super method to target the construcor we are using. This reinforcement for using the this.state in the class components helps to understand the precursor to using props and understanding destructuring
 
 <br>
+
+- Day 16: Web Dev(55%) | React Dev(10%) I only had enough bandwidth to get through one lesson today on the Rwact dev about setting key values in an array object when calling them in a class component and rendering them in JSX. I get why they want you to use a kay value, just in case you would like some more specific tailoring inside of your code.
+
+<br>
 <br>
 <br>
 
