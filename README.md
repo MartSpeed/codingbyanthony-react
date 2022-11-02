@@ -96,7 +96,7 @@
 - Day 21 : Web Dev(55%) | React Dev (11% ~ 12%) | SQL Database (0%) | Work
     - React Dev: completed the lesson for lifecycle methods using react class components. this helped me understand WHAT they were a lot better. The promise method and async method deep dive were EXTREMELY helpful. I havent had it explained this simply to me at all. This was a huge help in how response, reject and how try/catch blocks work in the code. Allowing me to better breakdown and restructure code in the future. I will be going over these each day to make sure I deepen my knowledge.
     <br>
-    - Work: the ongoing issue of refactoring the code for the sql date conversion to js for the scheduling is still being worked, however it is in a stable state. I needed to created a new stored procedure in sql to calculate distance for some jobs using the google api to make sure that it was gathering the correct distance versus the "as the crow flies" approach this previous approach was returning shorter or inaccurate times.
+        - Work: the ongoing issue of refactoring the code for the sql date conversion to js for the scheduling is still being worked, however it is in a stable state. I needed to created a new stored procedure in sql to calculate distance for some jobs using the google api to make sure that it was gathering the correct distance versus the "as the crow flies" approach this previous approach was returning shorter or inaccurate times.
 
 <br>
 <br>
