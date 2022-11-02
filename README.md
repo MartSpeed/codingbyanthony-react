@@ -68,7 +68,35 @@
 
 <br>
 
-- Day 16: Web Dev(55%) | React Dev(10%) I only had enough bandwidth to get through one lesson today on the Rwact dev about setting key values in an array object when calling them in a class component and rendering them in JSX. I get why they want you to use a kay value, just in case you would like some more specific tailoring inside of your code.
+- Day 16: Web Dev(55%) | React Dev(10%) 
+    - React Dev: I only had enough bandwidth to get through one lesson today on the Rwact dev about setting key values in an array object when calling them in a class component and rendering them in JSX. I get why they want you to use a kay value, just in case you would like some more specific tailoring inside of your code.
+
+<br>
+
+- Day 17: Web Dev (55%) | React Dev (10% ~ 11%) | Work
+    - Work: needed to focus on work, there have been some asynch promises that needed to fixed as well styling for the mobile component. The mobile component styling works with its menu bar and animations, the small laptop styling has been calling other sizes and it has been giving me grief.
+
+<br>
+
+- Day 18: Web Dev(55%) | React Dev (11%) | Work
+    - took today off for less screen time and recuperation.
+
+<br>
+
+- Day 19 : Web Dev(55%) | React Dev (11%) | Work
+    - Work: fixed the laptop styling component, but had to put the push on hold due to new permissions being made, and I am taking over for the current dev. Setting up my securities in different areas as what I will be doing once I take the lead.
+
+<br>
+
+- Day 20 : Web Dev(55%) | React Dev (11%) | Work
+    - Work: created a many queries to database calls using json, had an error in the scheduling time where the javascript was not converting the date vales from the database properly resulting in some unique errors. The first issue was fixed where clients could not log in and their employees could not clock. This emergency fix was reolved first, this resulting in a reformatting of the code from the SQL injection and JS time conversion.
+
+<br>
+
+- Day 21 : Web Dev(55%) | React Dev (11% ~ 12%) | SQL Database (0%) | Work
+    - React Dev: completed the lesson for lifecycle methods using react class components. this helped me understand WHAT they were a lot better. The promise method and async method deep dive were EXTREMELY helpful. I havent had it explained this simply to me at all. This was a huge help in how response, reject and how try/catch blocks work in the code. Allowing me to better breakdown and restructure code in the future. I will be going over these each day to make sure I deepen my knowledge.
+    <br>
+    - Work: the ongoing issue of refactoring the code for the sql date conversion to js for the scheduling is still being worked, however it is in a stable state. I needed to created a new stored procedure in sql to calculate distance for some jobs using the google api to make sure that it was gathering the correct distance versus the "as the crow flies" approach this previous approach was returning shorter or inaccurate times.
 
 <br>
 <br>
