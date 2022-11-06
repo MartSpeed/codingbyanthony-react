@@ -1,5 +1,7 @@
-const fetch = require('node-fetch');
-const fs = require('fs');
+// const fetch = require('node-fetch');
+// const fs = require('fs');
+
+
 // *****CALLBACKS*****
 // setTimeout
 
@@ -35,10 +37,38 @@ const fs = require('fs');
 // *****PROMISES*****
 // create a promise
 
+// const myPromise = new Promise((resolve, reject) => {
+//     const rand = Math.floor(Math.random() * 2);
+//     if(rand === 0){
+//         resolve();
+//     }else{
+//         reject();
+//     }
+// });
 
+// myPromise.then(() => console.log('success'))
+//             .catch(() => console.error('failure'));
+// // fs readRFile with promises
 
-// fs readRFile with promises
-
-
+// fs.promises.readFile('./test.txt', {encoding: 'utf-8'})
+//     .then(data => console.log(data))
+//     .catch((err) => console.error(err));
 
 // fetch with promises
+
+// fetch('https://pokeapi.co/api/v2/pokemon/garchomp')
+//     .then(res => res.json())
+//     .then((data) => console.log(data))
+//     .catch((err) => console.error(err));
+
+// *****async & await*****
+// load file with async/await
+
+
+
+// loadFile();
+// fetch pokemon with async/await
+
+
+
+// fetchPokemon(2)
