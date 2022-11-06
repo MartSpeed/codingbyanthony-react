@@ -63,12 +63,27 @@
 
 // *****async & await*****
 // load file with async/await
+// const loadFile = async () => {
+//     try{
+//         const data = await promises.readFile('./test.txt', {encoding: 'utf-8'})
+//         console.log(data);
 
+//     }catch(error){
+//         console.error(error);
+//     }
+// }
 
 
 // loadFile();
 // fetch pokemon with async/await
+const fetchPokemon = async (name) => {
+    try{
+        const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${name}`)
+        const data = await res.json();
+        console.log(data);
+    }catch(error){
+        console.error('no pokemon has been entered',error);
+    }
+}
 
-
-
-// fetchPokemon(2)
+fetchPokemon('garchomp')
