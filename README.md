@@ -114,6 +114,9 @@
 <br>
 
 - Day 25: Web Dev(55%) | React Dev (11% ~ 12%) | SQL Database (0%) | Work
+    - React Dev Projects:
+    - [async js project 1](https://www.youtube.com/watch?v=670f71LTWpM)
+    - [async js project 2](https://www.youtube.com/watch?v=PoRJizFvM7s&ab_channel=TraversyMedia)
 
 <br>
 <br>
