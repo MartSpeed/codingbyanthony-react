@@ -9,7 +9,8 @@ class App extends Component{
 
     this.state = {
       monster:[],
-    }
+    };
+    console.log('constructor');
   }
   // 1. [line 11] initialize the state as an empty array
   // 2. get the list of users
@@ -20,6 +21,7 @@ class App extends Component{
   // REACT LIFECYCLE methods: componentDidMount: whatever you write here is when the component mounts/renders
   // Promise: a promise to eventually have a value
   componentDidMount() { 
+    console.log('componentDidMount')
     fetch('https://jsonplaceholder.typicode.com/users')
     .then((response) => response.json())
     .then((users) => this.setState( () => {
@@ -34,8 +36,12 @@ class App extends Component{
   }
 
   render(){
+    console.log('render')
     return (
       <div className="App">
+      <input className='search-box' type='search' placeholder='search monsters' onChange={(event) => {
+        console.log(event)
+      }} />
         {this.state.monster.map((monsters)=>{return(<div key={monsters.id}><h1>{monsters.name}</h1></div>)})}
       </div>
     )

@@ -111,6 +111,9 @@
 
 - Day 24: Web Dev(55%) | React Dev (11% ~ 12%) | SQL Database (0%) | Work
     - Work: completed 90% of the mobile portal, the only issue now is the asynch function for the materialUI snackbar call to give feedback messages to logging in, logging out, and other accepted queries as well.
+<br>
+
+- Day 25: Web Dev(55%) | React Dev (11% ~ 12%) | SQL Database (0%) | Work
 
 <br>
 <br>
