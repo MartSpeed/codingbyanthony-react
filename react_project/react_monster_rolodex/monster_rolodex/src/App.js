@@ -34,11 +34,22 @@ class App extends Component {
                 () => {console.log(this.state)}));
   }
 
+  // Optimization to store the method instead of using it as an anonymous function
+  onSearchChange = (event) => {
+    const searchField = event.target.value.toLocaleLowerCase();
+    this.setState(() => {
+      return { searchField }
+    });
+  };
+
   render() {
     console.log('render')
 
-    const filteredMonsters = this.state.monster.filter((monsters) => {
-      return monsters.name.toLowerCase().includes(this.state.searchField);
+    const { monster, searchField } = this.state;
+    const { onSearchChange } = this;
+
+    const filteredMonsters = monster.filter((monsters) => {
+      return monsters.name.toLowerCase().includes(searchField);
     });
 
     return (
@@ -47,18 +58,7 @@ class App extends Component {
     className = 'search-box'
     type = 'search'
     placeholder = 'search monsters'
-        onChange={
-      (event) => {
-        console.log(event.target.value)
-        // cast lowercase into a variable
-        const searchField = event.target.value.toLocaleLowerCase();
-
-        this.setState(() => {
-          return {
-            searchField
-          }
-        })
-      }} />
+        onChange={onSearchChange} />
         {filteredMonsters.map((monsters)=>{
           return(
             <div key={monsters.id}>
