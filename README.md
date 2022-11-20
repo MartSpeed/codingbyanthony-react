@@ -121,16 +121,19 @@
 <br>
 
 - Day 26: Web Dev(55%) | React Dev (13%) | SQL Database (2%) | Work
-    - React Dev: 
-    - Work: 
+    - React Dev: async optimization
+    - Work: implementing the async practice and error handling to optimize a logout function and call a setState snackbar for logout confirmation that pulls the name of the user and displays a success if logged out with no issues and error handling and testing if logout were to fail.
 
 <br>
 
 - Day 27: Web Dev(55%) | React Dev (13%) | SQL Database (2%) | Work
+    - React Dev: incude() dot notation and practice
+    - Work: learning skills to prepare for final preparation to be the new dev lead and its working parts with the code base and the people that I will manage and collaborate with.
 
 <br>
 
-- Day 28: Web Dev(55%) | React Dev (13%) | SQL Database (2%) | Work
+- Day 28: Web Dev(55%) | React Dev (13% ~ 14%) | SQL Database (2%) | Work
+    - React Dev: include() dot notation and practice, searchField state creation and understanding how filtered state and an initial state worked and why it did not render using the filtered array, since it returns a new array from the values used and never had an empty starting value.
 
 <br>
 <br>
