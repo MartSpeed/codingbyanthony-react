@@ -98,22 +98,42 @@
     - Work: the ongoing issue of refactoring the code for the sql date conversion to js for the scheduling is still being worked, however it is in a stable state. I needed to created a new stored procedure in sql to calculate distance for some jobs using the google api to make sure that it was gathering the correct distance versus the "as the crow flies" approach this previous approach was returning shorter or inaccurate times.
 <br>
 
-- Day 22: Web Dev(55%) | React Dev (11% ~ 12%) | SQL Database (0%) | Work
+- Day 22: Web Dev(55%) | React Dev (12%) | SQL Database (0%) | Work
     - React Dev: going over Promises and asynchronous javscript actions again to hammer in the repetition and how they are used. Going to use more sources to practice making promises and/or asynch calls
 
 <br>
 
-- Day 23: Web Dev(55%) | React Dev (11% ~ 12%) | SQL Database (0%) | Work
+- Day 23: Web Dev(55%) | React Dev (12%) | SQL Database (0%) | Work
     - Work: created a new portal for mobile so that our techs can have a more updated and succinct method for how they log jobs and accept job request. Added styling per how the CEO requested will finish the display during the monday morning meeting.
     - React Dev: practcing async js and promises to get more familiar with how they work and to implement them more as well. Still need some help or some pair programming to increase my productivity.
 
 <br>
 
-- Day 24: Web Dev(55%) | React Dev (11% ~ 12%) | SQL Database (0%) | Work
+- Day 24: Web Dev(55%) | React Dev (12%) | SQL Database (0%) | Work
     - Work: completed 90% of the mobile portal, the only issue now is the asynch function for the materialUI snackbar call to give feedback messages to logging in, logging out, and other accepted queries as well.
 <br>
 
-- Day 25: Web Dev(55%) | React Dev (11% ~ 12%) | SQL Database (0%) | Work
+- Day 25: Web Dev(55%) | React Dev (12% ~ 13%) | SQL Database (0% ~ 2%) | Work
+    - React Dev Projects:
+    - [async js project 1](https://www.youtube.com/watch?v=670f71LTWpM)
+    - [async js project 2](https://www.youtube.com/watch?v=PoRJizFvM7s&ab_channel=TraversyMedia)
+
+<br>
+
+- Day 26: Web Dev(55%) | React Dev (13%) | SQL Database (2%) | Work
+    - React Dev: async optimization
+    - Work: implementing the async practice and error handling to optimize a logout function and call a setState snackbar for logout confirmation that pulls the name of the user and displays a success if logged out with no issues and error handling and testing if logout were to fail.
+
+<br>
+
+- Day 27: Web Dev(55%) | React Dev (13%) | SQL Database (2%) | Work
+    - React Dev: incude() dot notation and practice
+    - Work: learning skills to prepare for final preparation to be the new dev lead and its working parts with the code base and the people that I will manage and collaborate with.
+
+<br>
+
+- Day 28: Web Dev(55%) | React Dev (13% ~ 14%) | SQL Database (2%) | Work
+    - React Dev: include() dot notation and practice, searchField state creation and understanding how filtered state and an initial state worked and why it did not render using the filtered array, since it returns a new array from the values used and never had an empty starting value.
 
 <br>
 <br>
