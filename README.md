@@ -136,6 +136,12 @@
     - React Dev: include() dot notation and practice, searchField state creation and understanding how filtered state and an initial state worked and why it did not render using the filtered array, since it returns a new array from the values used and never had an empty starting value.
 
 <br>
+
+- Day 29: Web Dev(55%) | React Dev (14%) | SQL Database (2%) | Work
+    - React Dev: completed the filter method on the searchbox and optimization for DRY code. moving the components from the main app to their own components folder and building the class there. using props in components will be for tomorrow.
+    - Work: building a notes section, a note repository to store and save those notes, a modal with a table that save the user, the timestamp of the note saved, notes should be saved for each specific item that it belongs to. Some questions I have come across are the database call and what to do for the array and where and how to store the data.
+
+<br>
 <br>
 <br>
 

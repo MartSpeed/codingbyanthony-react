@@ -1,4 +1,5 @@
 // import logo from './logo.svg';
+import CardList from './components/card-list/card-list.component'
 import './App.css';
 
 import {Component} from 'react';
@@ -8,7 +9,6 @@ class App extends Component {
     super();
 
     this.state = {monster: [], searchField: ''};
-    console.log('constructor');
   }
   // 1. [line 11] initialize the state as an empty array
   // 2. get the list of users
@@ -19,7 +19,6 @@ class App extends Component {
   // REACT LIFECYCLE methods: componentDidMount: whatever you write here is when
   // the component mounts/renders Promise: a promise to eventually have a value
   componentDidMount() {
-    console.log('componentDidMount')
     fetch('https://jsonplaceholder.typicode.com/users')
         .then((response) => response.json())
         .then(
@@ -29,9 +28,8 @@ class App extends Component {
                   return {
                     monster: users
                   }
-                },
-                // callback for this.state
-                () => {console.log(this.state)}));
+                }
+            ))
   }
 
   // Optimization to store the method instead of using it as an anonymous function
@@ -43,7 +41,6 @@ class App extends Component {
   };
 
   render() {
-    console.log('render')
 
     const { monster, searchField } = this.state;
     const { onSearchChange } = this;
@@ -55,16 +52,11 @@ class App extends Component {
     return (
       <div className='App'>
       <input
-    className = 'search-box'
-    type = 'search'
-    placeholder = 'search monsters'
+        className = 'search-box'
+        type = 'search'
+        placeholder = 'search monsters'
         onChange={onSearchChange} />
-        {filteredMonsters.map((monsters)=>{
-          return(
-            <div key={monsters.id}>
-              <h1>{monsters.name}</h1>
-            </div>
-            )})}
+            <CardList monsters={filteredMonsters}/>
       </div>
     )
   }
