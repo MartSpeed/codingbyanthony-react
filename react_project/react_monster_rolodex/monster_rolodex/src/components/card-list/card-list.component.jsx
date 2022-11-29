@@ -1,11 +1,16 @@
-import { render } from '@testing-library/react';
 import { Component } from 'react';
 
 class CardList extends Component {
     render() {
+        console.log('render')
+        const { monsters } = this.props;
         return (
             <div>
-                I am the cardlist component
+                {monsters.map(monster => (
+                    <h1 key={monster.id}>
+                        {monster.name}
+                    </h1>
+                ))}
             </div>
         )
     }
