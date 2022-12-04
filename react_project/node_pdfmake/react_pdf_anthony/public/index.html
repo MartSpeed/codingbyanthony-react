@@ -28,6 +28,8 @@
     
     const tagWidth = 234;
     let tagHeight = 380; // make this size adjust according to the text
+    let barcode = 1234567890987654321;
+    let returns = 006;
 
     var docDefinition = {
         // styling of the table and its object components
@@ -75,27 +77,30 @@
                 // the max text length before a new line will be 70 characters
                 style: "text4",
                 margin: [ 0, 2],
+                widths: ["*"],
                 columns: [
                     {
-                        text: "this is some text where the notes section will go this is some thi\n" +
-                        "is some more information for the note that will here, there are words th\n" +
-                        "at bleed into this section to determine its maximum size of words and ho\n "
+                        text: "this is some text where the notes section will go this is some this" +
+                        "is some more information for the note that will here, there are words that" +
+                        "it bleed into this section to determine its maximum size of words and hover over something"
                     }
                 ]
             },
             {
                 // this is where the table for # returns, barcode, initals and date
                 style: "text4",
+                layout: "noBorders",
+                margin: [0, 2],
                 table: {
-                    widths: [ 150, 100 ],
+                    widths: [ 150, 150, ],
                     body: [
                         [
-                            [ { text: "# of Returns", colSpan: 2 } ],
-                            [ { text: "initals __________" } ]
+                            [ { text: `# of Returns ${returns}`, colSpan: 3 } ],
+                            [ { text: "INITIALS: JMA" , alignment: "right"} ],
                         ],
                         [
-                            [ { text: "THIS IS A BARCODE", style: "barcodeStyling", colSpan: 2} ],
-                            [ { text: "\n\nDate __________"} ]
+                            [ { text: ` ${barcode} `, style: "barcodeStyling", colSpan: 2} ],
+                            [ { text: "\n\nDATE: 12/04/2022", alignment: "right"} ],
                         ]
                     ]
                 }
@@ -142,6 +147,7 @@
             },
             barcodeStyling: {
                 margin: [0, 20],
+                fontSize: 14
             }
         }
     }
