@@ -148,6 +148,12 @@
     - Work: I currently have a few issues with some things at work. The largest issue is that I still dont know the code base well and I have been severely lacking in the discipline area to do things correctly and learn as I go. I am dropping the ball or an otherwise growing point that I can earn well and do well at. My next problem is the paper issue that we are having and how to narrow down those prospects, then I have to figure out why my supervisor isnt receiving messages as well a few other people are not receiving key emails, and all of this stuff started happening all of a sudden. There are a f ew projects that I need to do to keep things working and a lot more things that I need to do in order to keep this bandaid going. I am not going to improve on much in the start of this. I am going to learn the the code base through and through to be comfortable with changes. When I get to that point, I am going to start implementing the changes and improvements for the current system that we are using to a more succinct one with more readable and DRY code as well. I am going to make sure that I code for 2+ hours outside of my work hours and make sure to study the code base deeper and stick with this. I cant do this on my own, but right now I am in position where I have to and I am not sure where to go after that. I am definitely going to pay for a tutor because there are a lot of things that I need and want to be good at and need some outside guidance.
 
 <br>
+
+- Day 31: Web Dev(55%) | React Dev (16%) | SQL Database (2%) | Work
+    - Work: npm pdfmake template has been created, just need to connect it to the work database and text it with the environment that we currently have. Next is to continue the socket training and the more of thr ZTM course in the final sprint of the day. I have 8 50/10min sessions today in a row and stuck to them all. I need to do better with showing up and just doing the work. Until then. Today was a productive day, from notes to accomplishment. Dont wake up late again, ill let it slide this time.
+
+    
+<br>
 <br>
 <br>
 
