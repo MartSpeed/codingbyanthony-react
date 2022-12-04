@@ -32,14 +32,16 @@
     var docDefinition = {
         // styling of the table and its object components
         pageOrientation: "landscape",
+        alignment: "justify",
         pageSize: {
             width: tagWidth,
             height: tagHeight,
         },
         content: [
             {
-                layout: "headerLineOnly",
+                layout: "lightHorizontalLines",
                 table: {
+                    widths: ["*", "*", "*"],
                     // this is where the table information that has been chosen by a checkbox will appear
                     body: [
                         // this is the header, using the {} as black columns, when you span the columns your initial one will fill the space
@@ -50,14 +52,14 @@
 
                         [
                             { text: " CUTTER ", style: "tableText" },
-                            { text: " PRINTER ", style: "tableText" },
-                            { text: " CALIBRATION ", style: "tableText" },
+                            { text: " PRINTHEAD ", style: "tableText" },
+                            { text: " SENSOR ", style: "tableText" },
                         ],
 
                         [
                             { text: " MOTHERBOARD ", style: "tableText" },
-                            { text: " MONITOR ", style: "tableText" },
-                            { text: " SENSOR ", style: "tableText" }
+                            { text: " CONFIGURED ", style: "tableText" },
+                            { text: " CALIBRATED ", style: "tableText" }
                         ],
                         
                         [
@@ -72,6 +74,7 @@
                 // this is where the recorded note will go
                 // the max text length before a new line will be 70 characters
                 style: "text4",
+                margin: [ 0, 2],
                 columns: [
                     {
                         text: "this is some text where the notes section will go this is some thi\n" +
@@ -84,7 +87,7 @@
                 // this is where the table for # returns, barcode, initals and date
                 style: "text4",
                 table: {
-                    widths: [ 150, 100],
+                    widths: [ 150, 100 ],
                     body: [
                         [
                             [ { text: "# of Returns", colSpan: 2 } ],
@@ -92,7 +95,7 @@
                         ],
                         [
                             [ { text: "THIS IS A BARCODE", style: "barcodeStyling", colSpan: 2} ],
-                            [ { text: "Date __________"} ]
+                            [ { text: "\n\nDate __________"} ]
                         ]
                     ]
                 }
@@ -101,7 +104,7 @@
         styles: {
             header: {
                 alignment: "center",
-                fontSize: 18,
+                fontSize: 12,
                 bold: true,
             },
             subheader: {
@@ -133,8 +136,9 @@
                 padding: 0
             },
             tableText: {
-                fontSize: 8,
+                fontSize: 7,
                 alignment: "left",
+                bold: true
             },
             barcodeStyling: {
                 margin: [0, 20],
