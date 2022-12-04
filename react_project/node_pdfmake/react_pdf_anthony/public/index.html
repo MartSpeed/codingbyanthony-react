@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- These are source code from pdkmake cdn {min.js & vfs_fonts.js} -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.6/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.6/vfs_fonts.js"></script>
+    <title>PDF Document Generation</title>
+</head>
+<body>
+    <header> <h1> This is the pdf documentation </h1> </header>
+</body>
+<script>
+    // need to provide a document definition - it is an object
+    // => this object holds the content property array
+
+    /* 
+        we need to create a variable for height that is based off of the length of the notes section
+        to make sure it has a maximum size for the note and a set minimum size for the standard.
+
+        what are some of the longest notes that can go in the notes sections
+
+        we need a place to fill in the barcode, how do we populate that information into a set field on the form
+
+    */
+    
+    const tagWidth = 234;
+    let tagHeight = 380; // make this size adjust according to the text
+
+    var docDefinition = {
+        content: [
+            {
+                // styling of the table and its object components
+                alignment: "center",
+                pageOrientation: "landscape",
+                pageSize: {
+                    width: tagWidth,
+                    height: tagHeight,
+                },
+                style: "tableSize",
+                layout: "lightHorizontalLines",
+                table: {
+                    // this is where the table information that has been chosen by a checkbox will appear
+                    body: [
+                        // this is the header, using the {} as black columns, when you span the columns your initial one will fill the space
+                        [ 
+                            { text: "SERVICE", alignment: "center", style: "header", colSpan: 3 },
+                            {},
+                            {}
+                        ],
+
+                        [
+                            { text: " CUTTER ", style: "tableText" },
+                            { text: " PRINTER ", style: "tableText" },
+                            { text: " CALIBRATION ", style: "tableText" }
+                        ],
+
+                        [
+                            { text: " MOTHERBOARD ", style: "tableText" },
+                            { text: " MONITOR ", style: "tableText" },
+                            { text: " SENSOR ", style: "tableText" }
+                        ],
+                        
+                        [
+                            { text: " NEW ", style: "tableText" },
+                            { text: " REFURBISHED ", style: "tableText" },
+                            { text: " RECYCLED ", style: "tableText" }
+                        ],
+                    ]
+                },
+            },
+            {
+                // this is where the recorded note will go
+                style: [ "text4", "tableSize" ],
+                text:
+                    " this is some text where the notes section will go \n " +
+                    " this is some more information for the note section to determine its maximum size \n " +
+                    " this will be the last line on the note section before the barcdoe willbe added in " 
+            }
+        ],
+        styles: {
+            header: {
+                alignment: "center",
+                fontSize: 21,
+                bold: true,
+            },
+            subheader: {
+                alignment: "justify",
+                fonstSize: 11,
+                bold: true
+            },
+            quote: {
+                italics: true
+            },
+            small: {
+                fontSize: 6
+            },
+            text: {
+                fontSize: 14,
+                bold: true
+            },
+            text2: {
+                fontSize: 12,
+                color: "green",
+                italic: true
+            },
+            text4: {
+                fontSize: 9,
+                alignment: "left"
+            },
+            tableSize: {
+                margin: [ 0, 5, 0, 15 ]
+            },
+            tableText: {
+                fontSize: 12,
+                alignment: "left",
+            }
+        }
+    }
+    // this is what displays the document
+    pdfMake.createPdf(docDefinition).download();
+</script>
+</html>
