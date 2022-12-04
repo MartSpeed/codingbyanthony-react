@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- These are source code from pdkmake cdn {min.js & vfs_fonts.js} -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.6/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.6/vfs_fonts.js"></script>
+    <title>PDF Document Generation</title>
+</head>
+<body>
+    <header> <h1> This is the pdf documentation </h1> </header>
+</body>
+<script>
+    // need to provide a document definition - it is an object
+    // => this object holds the content property array
+    var docDefinition = {
+        content: [
+            "hello world"
+        ]
+    }
+    // this is what displays the document
+    pdfMake.createPdf(docDefinition).download();
+</script>
+</html>
