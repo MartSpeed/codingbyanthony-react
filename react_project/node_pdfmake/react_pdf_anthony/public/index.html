@@ -15,75 +15,70 @@
 <script>
     // need to provide a document definition - it is an object
     // => this object holds the content property array
+
+    /* 
+        we need to create a variable for height that is based off of the length of the notes section
+        to make sure it has a maximum size for the note and a set minimum size for the standard.
+
+        what are some of the longest notes that can go in the notes sections
+
+        we need a place to fill in the barcode, how do we populate that information into a set field on the form
+
+    */
+    
+    const tagWidth = 234;
+    let tagHeight = 380; // make this size adjust according to the text
+
     var docDefinition = {
         content: [
             {
-                alignment: 'justify',
-                padding: 4,
-                columns: [
-                    {
-                        text: " Hello everyone, this is codingBYanthtony. " + 
-                        " This program is pretty obnoxious how it makes you write your code. But I am stating to understand little by little " +
-                        " You have divide them up evenly and then put some information inside so that you can have some content " +
-                        " you can use the concatenate method to make sure you code stays clean that you dont have a lot of words to display ",
-                        style: [ "text"],
-                        padding: [0, 8],
-                        margin: [10, 0]
-                    },
-                    {
-                        text: "testing to see if I get multiple entries" + 
-                        " but on the other hand, a good idea would be how to store data and that value can be used to in put the information " +
-                        " and it pull that information into the pdf and you get to choose what type of pdf you would li ke to make. " +
-                        " this would let you put whatever information on the screen and you get to choose the orientation and wording as well " +
-                        " this is a goal and a step in the direction to do just and more. stay consistent ",
-                        style: "subheader",
-                        padding: [0, 8],
-                    },
-                ]
-            },
-            {
-                columns: [
-                    {
-                        width: 90,
-                        text: 'this entry will be a table design, this is divided by width inline',
-                        style: "text",
-                        padding: [0, 8],
-                        margin: [10, 0]
-                    },
-                    {
-                        width: "*",
-                        text: 'this includes two types of styles. header and quote, this is separated by a star which fills in the gaps by automatically using space available?',
-                        style:  ["text", "quote" ],
-                        padding: [0, 8],
-                        margin: [10, 0]
-                    },
-                    {
-                        width: "*",
-                        text: " I am getting used to the styling and how to set it up, but I need to make it more complicated to keep testing my understanding. ",
-                        style: "text",
-                        padding: [0, 8],
-                        margin: [10, 0]
-                    },
-                    {
-                        width: 90,
-                        text: " trying out this text and seeing if it appears the way that you want it to show up on the screen " +
-                        " this will appear in a separate a column, nut they need to have some space in between ",
-                        style: "text",
-                        padding: [0, 8],
-                        margin: [10, 0]
-                    }
+                // styling of the table and its object components
+                alignment: "center",
+                pageOrientation: "landscape",
+                pageSize: {
+                    width: tagWidth,
+                    height: tagHeight,
+                },
+                style: "tableSize",
+                layout: "lightHorizontalLines",
+                table: {
+                    // this is where the table information that has been chosen by a checkbox will appear
+                    body: [
+                        // this is the header, using the {} as black columns, when you span the columns your initial one will fill the space
+                        [ 
+                            { text: "SERVICE", alignment: "center", style: "header", colSpan: 3 },
+                            {},
+                            {}
+                        ],
 
-                ]
+                        [
+                            { text: " CUTTER ", style: "tableText" },
+                            { text: " PRINTER ", style: "tableText" },
+                            { text: " CALIBRATION ", style: "tableText" }
+                        ],
+
+                        [
+                            { text: " MOTHERBOARD ", style: "tableText" },
+                            { text: " MONITOR ", style: "tableText" },
+                            { text: " SENSOR ", style: "tableText" }
+                        ],
+                        
+                        [
+                            { text: " NEW ", style: "tableText" },
+                            { text: " REFURBISHED ", style: "tableText" },
+                            { text: " RECYCLED ", style: "tableText" }
+                        ],
+                    ]
+                },
             },
             {
-                text: " this a column that will try some different things to make it more enhanced, we will start " +
-                " with one nested value and then repeat from there until we have several that work and can  " +
-                " navigate through the code decently with practice.",
-                style: "text2"
-            }   ,
-            {
-                text: "this section will be a table"
-            }        
+                // this is where the recorded note will go
+                style: [ "text4", "tableSize" ],
+                text:
+                    " this is some text where the notes section will go \n " +
+                    " this is some more information for the note section to determine its maximum size \n " +
+                    " this will be the last line on the note section before the barcdoe willbe added in " 
+            }
         ],
         styles: {
             header: {
@@ -110,6 +105,17 @@
                 fontSize: 12,
                 color: "green",
                 italic: true
+            },
+            text4: {
+                fontSize: 9,
+                alignment: "left"
+            },
+            tableSize: {
+                margin: [ 0, 5, 0, 15 ]
+            },
+            tableText: {
+                fontSize: 12,
+                alignment: "left",
             }
         }
     }
