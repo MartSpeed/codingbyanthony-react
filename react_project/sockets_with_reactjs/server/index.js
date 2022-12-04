@@ -23,7 +23,18 @@ const io = new Server(server, {
     },
 })
 
+// listen to some events
+io.on("connection", (socket) => {
+    console.log(`User Connected: ${socket.id}`);
+
+    socket.on("send_message", (data) => {
+        console.log(data)
+    })
+})
+
+
 // have the server listen for a port
+// run npm start to launch server
 server.listen(3001, () => {
     console.log("SERVER IS RUNNING, YOU SHOULD CATCH IT")
 })
