@@ -152,7 +152,10 @@
 - Day 31: Web Dev(55%) | React Dev (16%) | SQL Database (2%) | Work
     - Work: npm pdfmake template has been created, just need to connect it to the work database and text it with the environment that we currently have. Next is to continue the socket training and the more of thr ZTM course in the final sprint of the day. I have 8 50/10min sessions today in a row and stuck to them all. I need to do better with showing up and just doing the work. Until then. Today was a productive day, from notes to accomplishment. Dont wake up late again, ill let it slide this time.
 
-    
+<br>
+
+- Day 32: Web Dev(55%) | React Dev (16%) | SQL Database (2%) | Work
+    - Work: I need more time on this current project, the scope of the porject is much large than I anticipated. The documentation, the logic and information, I beleive I need to create a new database call along with the creating the information. I still need a way to test the PDF prinout and to make sure it is grabbing the correct information. Then I need to print out a test label to make sure the size of the card is correct. So I need to figure out how to socket the information from the data stored procedure to grab the data that I need. I also worked on useState and useEffect and did some exercises with those as well. I started a bit late because I overslpt on my nap, I need to get better at my time and management for my sessions and be more mindful. Dont be afraid to change the schedule, dont be afraid to ask questions immediately and be sure to always document what you find and when you find it. Everything takes, time and that is okay. It how you use it when you are done, apply that and you will be just fine.
 <br>
 <br>
 <br>
