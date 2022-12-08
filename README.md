@@ -157,6 +157,10 @@
 - Day 32: Web Dev(55%) | React Dev (16%) | SQL Database (2%) | Work
     - Work: I need more time on this current project, the scope of the porject is much large than I anticipated. The documentation, the logic and information, I beleive I need to create a new database call along with the creating the information. I still need a way to test the PDF prinout and to make sure it is grabbing the correct information. Then I need to print out a test label to make sure the size of the card is correct. So I need to figure out how to socket the information from the data stored procedure to grab the data that I need. I also worked on useState and useEffect and did some exercises with those as well. I started a bit late because I overslpt on my nap, I need to get better at my time and management for my sessions and be more mindful. Dont be afraid to change the schedule, dont be afraid to ask questions immediately and be sure to always document what you find and when you find it. Everything takes, time and that is okay. It how you use it when you are done, apply that and you will be just fine.
 <br>
+
+- Day 33: Web Dev(55%) | React Dev (16%) | SQL Database (2%) | Work
+    - Work: updated the SSL certificates for the domain, need to keep track of this for the future and record the steps in some documentation. Ill create headers and just add underneath them as I go. need to find out how to do the certs on one domain and go from there and record those new procedures as well. did some styling maintenance on the mobile site for some finishing touches before launch, need to create a preview and then walk through all the information for the documentation, run test to see what breaks it if anything. add to a watchlist for potential bugs and ways to maintain and accomplish that. need to find a way to test mobile while in the box, reinforce and recitfy current methods for each day. 2 weeks is the beginning for a formal personal sprint, maintain damage control and work to reinforce TDD and security. study the code before you start to maintain it, better understand how to debug the code as well.
+<br>
 <br>
 <br>
 
