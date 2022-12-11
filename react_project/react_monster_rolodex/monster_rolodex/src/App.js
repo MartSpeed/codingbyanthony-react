@@ -11,11 +11,6 @@ class App extends Component {
 
     this.state = {monster: [], searchField: ''};
   }
-  // 1. [line 11] initialize the state as an empty array
-  // 2. get the list of users
-  // 3. when do I get the list ???
-  // 4. how do I get the list ???
-  // 5. where do I put the list ??? >> you get the list from this.state
 
   // REACT LIFECYCLE methods: componentDidMount: whatever you write here is when
   // the component mounts/renders Promise: a promise to eventually have a value
@@ -54,9 +49,9 @@ class App extends Component {
     return (
       <div className='App'>
         <SearchBox
-          onChangeHandler={onSearchChange}
+          className='monsters-search-box'            
           placeHolder='search monster...'
-          className='search-box'            
+          onChangeHandler={onSearchChange}
           />
         <CardList monsters={filteredMonsters}/>
       </div>
