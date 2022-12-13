@@ -48,6 +48,7 @@ class App extends Component {
 
     return (
       <div className='App'>
+      <h1 className="app-title">Monster Holodeck</h1>
         <SearchBox
           className='monsters-search-box'            
           placeHolder='search monster...'
