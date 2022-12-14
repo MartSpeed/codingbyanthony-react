@@ -3,12 +3,13 @@ import './search-box.styles.css'
 
 class SearchBox extends Component{
     render(){
+        const { className, placeHolder, onChangeHandler } = this.props;
         return(
              <input
                 type = 'search'
-                className={` search-box ${this.props.className} `}
-                placeholder={this.props.placeHolder}
-                onChange={this.props.onChangeHandler}           
+                className={` search-box ${className} `}
+                placeholder={placeHolder}
+                onChange={onChangeHandler}           
             />
         )
     }
