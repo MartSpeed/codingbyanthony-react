@@ -21,9 +21,8 @@ const [filteredMonsters, setFilteredMonsters] = useState(monsters);
   dependency array change is when I am going to run this call back function 
 */
 useEffect(() => {
-  console.log('effect fired')
   fetch('https://jsonplacehodler.typicode.com/users')
-  .then((response) => response.json)
+  .then((response) => response.json())
   .then((users) => setMonsters(users)
   );
 }, []);
