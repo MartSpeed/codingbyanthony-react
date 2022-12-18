@@ -3,40 +3,71 @@ import CardList from './components/card-list/card-list.component'
 import SearchBox from './components/search-box/search-box.component';
 import './App.css';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 // A. function component
 
 const App = () => {
-
   // useState gives back an array of 2 values
   // assign variables to values inside of an array
 const [searchField, setSearchField] = useState(''); // [value, setValue]
-console.log({ searchField });
+const [monsters, setMonsters] = useState([]);
+const [filteredMonsters, setFilteredMonsters] = useState(monsters);
+
+// useEffect takes 2 arguments 
+/*
+  1. a callback function: toe code or the effect that we want to happen inside of our functional component
+  2. an array of dependencies: state values or prop values. whenever any of the values inside of this
+  dependency array change is when I am going to run this call back function 
+*/
+useEffect(() => {
+  console.log('effect fired')
+  fetch('https://jsonplacehodler.typicode.com/users')
+  .then((response) => response.json)
+  .then((users) => setMonsters(users)
+  );
+}, []);
+
+useEffect(() => {
+  const newFilteredMonsters = monsters.filter((monster) => {
+    return monster.name.toLocaleLowerCase().includes(searchField);
+  });
+  setFilteredMonsters(newFilteredMonsters);
+}, [monsters, searchField])
+
+// this is not the way you want to fetch in a functional component
+// fetch('https://jsonplacehodler.typicode.com/users')
+//   .then((response) => response.json)
+//   .then((users) => setMonsters(users)
+//   );
 
 const onSearchChange = (event) => {
   const searchFieldString = event.target.value.toLocaleLowerCase();
   setSearchField(searchFieldString);
 };
 
+// const filteredMonsters = monsters.filter((monster) => {
+//   return monster.name.toLocaleLowerCase().includes(searchField);
+// });
+
   return (
-          <div className='App'>
-          
-            <h1 className="app-title">Monster Holodeck</h1>
-            
-            <SearchBox
-              className='monsters-search-box'            
-              placeHolder='search monster...'
-              onChangeHandler={onSearchChange}
-              />
-            
-            {/* <CardList monsters={filteredMonsters}/> */}
-          
-          </div>
-        )
+    <div className='App'>    
+      <h1 className="app-title">Monster Holodeck</h1>
+      
+      <SearchBox
+        className='monsters-search-box'            
+        placeHolder='search monster...'
+        onChangeHandler={onSearchChange}
+        />
+      
+      <CardList monsters={filteredMonsters}/>
+    
+    </div>
+  )
 }
 
 // B. class component
+// ================================================================================
 // class App extends Component {
 //   constructor() {
 //     super();
