@@ -55,7 +55,7 @@ const onSearchChange = (event) => {
       
       <SearchBox
         className='monsters-search-box'            
-        placeHolder='search monster...'
+        placeHolder='search monsters...'
         onChangeHandler={onSearchChange}
         />
       
