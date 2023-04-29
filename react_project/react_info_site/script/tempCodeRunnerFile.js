@@ -1,1 +1,0 @@
-ReactDOM.render(<h1>react is not working</h1>, document.querySelector("#root"));
