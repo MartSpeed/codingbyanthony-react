@@ -3,6 +3,25 @@
     I am only recording what I have done, how long it took and completion percentage if it is provided as a metric.
 </p>
 
+# June 18
+## regex 
+- i flag = case insensitve
+```javascript
+let twinkleStar = "Twinkle, twinkle, litte star"
+let starRegex = /twinkle/i
+result = twinkleStar.match(starRegex)
+console.log(result)
+```
+
+- g flag = match all
+```javascript
+let testStr = "Repeat, Repeat, Repeat"
+let ourRegex = /Repeat/g
+result = testStr.match(ourRegex)
+console.log(result )
+```
+
+- several flag matches can be used at the same time when using regex
 ---
 
 ## **Personal Projects to refine specific areas of study**
