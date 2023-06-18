@@ -47,6 +47,15 @@ result = quoteSample.match(vowelRegex);
 console.log(result) // returns all match vowels with case insensitivity with the included flags
 ```
 
+- matching a range of letters using brackets
+```javascript
+quoteSample = "The quick brown fox jumps over the lazy dog"
+let alphabetRegex = /[a-z]/ig
+result = quoteSample.match(alphabetRegex);
+
+console.log(result) // returns every letter in the string
+```
+
 ---
 
 ## **Personal Projects to refine specific areas of study**
