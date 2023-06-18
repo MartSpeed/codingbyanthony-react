@@ -3,49 +3,6 @@
     I am only recording what I have done, how long it took and completion percentage if it is provided as a metric.
 </p>
 
-# **Monday May 1st, 2023**
-#### PERSONAL
-<blockquote>
-    What I worked on and where I feel that I am stuck.
-</blockquote>
-
-#### WORK
-<blockquote>
-    What I worked on and where I feel that I am stuck.
-</blockquote>
-
----
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
-9. 
-10. 
-11. 
-12. 
-13. 
-14. 
-15. 
-16. 
-17. 
-18. 
-19. 
-20. 
-21. 
-22. 
-23. 
-24. 
-25. 
-26. 
-27. 
-28. 
-29. 
-30. 
-31. 
-
 ---
 
 ## **Personal Projects to refine specific areas of study**
