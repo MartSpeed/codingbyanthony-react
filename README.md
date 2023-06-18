@@ -23,7 +23,7 @@ console.log(result )
 
 - several flag matches can be used at the same time when using regex
 
-- . = wildcard match
+- . = wildcard matches anything
 ```javascript
 let humStr = "I'll hum a song"
 let hugStr = "Bear hug"
@@ -35,6 +35,18 @@ let exampleStr = "Let's have fun with regular expressions!"
 let unRegex = /.un/;
 result = unRegex.test(exampleStr) // return true, fun
 ```
+
+- [] = match the specified character in the brackets
+```javascript
+let bgRegex = /b[aiu]g/
+
+let quoteSample = "Beware of bugs in the above code; I have only proved it corr"
+let vowelRegex = /[aeiouy]/ig
+result = quoteSample.match(vowelRegex);
+
+console.log(result) // returns all match vowels with case insensitivity with the included flags
+```
+
 ---
 
 ## **Personal Projects to refine specific areas of study**
