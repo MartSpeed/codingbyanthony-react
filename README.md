@@ -56,6 +56,38 @@ result = quoteSample.match(alphabetRegex);
 console.log(result) // returns every letter in the string
 ```
 
+- match characters that occure zero or more time
+```javascript
+let difficultSpelling = "Mississipspi"
+myRegex = /s+/g;
+result = difficultSpelling.match(myRegex)
+
+console.log(result) // returns ['ss' 'ss' 's] the sequence with how many times each character occurs
+```
+
+- match characters that occur zero or more time
+```javascript
+let soccerWord = 'gooooooooooal!'
+let gphrase = 'gut feeling'
+let oPhrase = 'over the moon'
+let goRegex = /go*/
+
+result = soccerWord.match(goRegex)
+console.log(result) // returns ['goooooooooo']
+
+result = gphrase.match(goRegex)
+console.log(result) // Returns ['g']
+
+result = oPhrase.match(goRegex)
+console.log(result) // returns null
+
+let chewieQuote = 'Aaaaaaaaaaarrrgh!' // match 'a' zero or one time
+let chewieRegex = /a*/i
+result = chewieQuote.match(chewieRegex)
+
+console.log(result) // returns all character a using the i - flag for case insensitivity
+```
+
 ---
 
 ## **Personal Projects to refine specific areas of study**
