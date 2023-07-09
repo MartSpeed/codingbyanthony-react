@@ -111,7 +111,7 @@ let seriousBusinessPerson = {
 
 ## Abstraction
 <p>
-    Hide details and show essentials. simple, predictable, manageable
+    Hide details and show essentials. simple, predictable, manageable. Smaller more manageable pieces of code. Helps you split the complexity your software into manageable parts.
 </p>
 ---
 
