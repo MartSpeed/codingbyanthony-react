@@ -108,6 +108,11 @@ let seriousBusinessPerson = {
     }
 }
 ```
+
+## Abstraction
+<p>
+    Hide details and show essentials. simple, predictable, manageable
+</p>
 ---
 
 ## **Personal Projects to refine specific areas of study**
