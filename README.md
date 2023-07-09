@@ -92,7 +92,7 @@ console.log(result) // returns all character a using the i - flag for case insen
 
 ## Encapsulation
 <p>
-    The process of storing functins (methods) with their associayed data (properties) - in one this (object)*
+    The process of storing functins (methods) with their associayed data (properties) - in one thing (object)*
 </p>
 
 ```javascript
