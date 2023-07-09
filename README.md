@@ -92,7 +92,7 @@ console.log(result) // returns all character a using the i - flag for case insen
 
 ## Encapsulation
 <p>
-    The process of storing functins (methods) with their associayed data (properties) - in one thing (object)*
+    The process of storing functions (methods) with their associated data (properties) - in one thing (object)*
 </p>
 
 ```javascript
@@ -111,7 +111,7 @@ let seriousBusinessPerson = {
 
 ## Abstraction
 <p>
-    Hide details and show essentials. simple, predictable, manageable. Smaller more manageable pieces of code. Helps you split the complexity your software into manageable parts.
+    Hide details and show essentials. simple, predictable, manageable. Smaller more manageable pieces of code. Helps you split the complexity of your software into manageable parts.
 </p>
 
 ## Inheritance
