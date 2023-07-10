@@ -124,7 +124,11 @@ let seriousBusinessPerson = {
 <p>
     Code written to use an interface automagically(automatically) knows how to work with any number of different objects that provide the interface.
 </p>
-- Interface : a way that you interact with something. A television remote is a good example.
+
+## Interface
+<p>
+    A way that you interact with something. A television remote is a good example. These are your methods provided to the object.
+</p>
 
 ---
 
