@@ -119,6 +119,13 @@ let seriousBusinessPerson = {
     Make a class from another class for a hierarchy of classes that share a set of properties and methods.
 </p>
 
+
+## Polymorphism
+<p>
+    Code written to use an interface automagically(automatically) knows how to work with any number of different objects that provide the interface.
+</p>
+- Interface : a way that you interact with something. A television remote is a good example.
+
 ---
 
 ## **Personal Projects to refine specific areas of study**
