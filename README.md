@@ -130,6 +130,10 @@ let seriousBusinessPerson = {
     A way that you interact with something. A television remote is a good example. These are your methods provided to the object.
 </p>
 
+<p>
+    Sibling descendants of a base class will all have the same interface but varying implementations.
+</p>
+
 ---
 
 ## **Personal Projects to refine specific areas of study**
