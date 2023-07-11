@@ -138,6 +138,10 @@ let seriousBusinessPerson = {
     When you are not sure of the objects type at runtime and the most specific method is called.
 </p>
 
+<p>
+    Therefore the behavior of the method called may differ, depending on the objects type at runtime.
+</p>
+
 
 ---
 
