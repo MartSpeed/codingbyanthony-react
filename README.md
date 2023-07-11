@@ -131,8 +131,13 @@ let seriousBusinessPerson = {
 </p>
 
 <p>
-    Sibling descendants of a base class will all have the same interface but varying implementations.
+    Sibling descendants (child class) of a base class will all have the same interface but varying implementations.
 </p>
+
+<p>
+    When you are not sure of the objects type at runtime and the most specific method is called.
+</p>
+
 
 ---
 
