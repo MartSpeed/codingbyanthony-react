@@ -142,6 +142,14 @@ let seriousBusinessPerson = {
     Therefore the behavior of the method called may differ, depending on the objects type at runtime.
 </p>
 
+<p>
+    Provides a way to perform a single action in different forms.
+</p>
+
+<p>
+    Provides an ability to call the same method on different Javascript objects.
+</p>
+
 
 ---
 
