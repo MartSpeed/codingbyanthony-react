@@ -116,38 +116,25 @@ let seriousBusinessPerson = {
 
 ## Inheritance
 <p>
-    Make a class from another class for a hierarchy of classes that share a set of properties and methods.
+    Make a class from another class for a hierarchy of classes that share a set of properties and methods. 
 </p>
 
 
 ## Polymorphism
 <p>
-    Code written to use an interface automagically(automatically) knows how to work with any number of different objects that provide the interface.
+    <ul>
+        <li>Code written to use an interface automagically(automatically) knows how to work with any number of different objects that provide the interface.</li>
+        <li>Sibling descendants (child class) of a base class will all have the same interface but varying implementations.</li>
+        <li>When you are not sure of the objects type at runtime and the most specific method is called.</li>
+        <li>Therefore the behavior of the method called may differ, depending on the objects type at runtime.</li>
+        <li>Provides a way to perform a single action in different forms.</li>
+        <li>Provides an ability to call the same method on different Javascript objects.</li>
+    </ul>
 </p>
 
 ## Interface
 <p>
     A way that you interact with something. A television remote is a good example. These are your methods provided to the object.
-</p>
-
-<p>
-    Sibling descendants (child class) of a base class will all have the same interface but varying implementations.
-</p>
-
-<p>
-    When you are not sure of the objects type at runtime and the most specific method is called.
-</p>
-
-<p>
-    Therefore the behavior of the method called may differ, depending on the objects type at runtime.
-</p>
-
-<p>
-    Provides a way to perform a single action in different forms.
-</p>
-
-<p>
-    Provides an ability to call the same method on different Javascript objects.
 </p>
 
 
