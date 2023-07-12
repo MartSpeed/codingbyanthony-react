@@ -1,4 +1,4 @@
-# Dark Mode Page suppoer
+# Dark Mode Page support
 ```javascript
 module.exports = {
   darkMode: 'class',
