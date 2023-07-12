@@ -122,8 +122,8 @@ let seriousBusinessPerson = {
 
 ## Polymorphism
 <p>
+Code written to use an interface automagically(automatically) knows how to work with any number of different objects that provide the interface. Makes your code more reusable
     <ul>
-        <li>Code written to use an interface automagically(automatically) knows how to work with any number of different objects that provide the interface.</li>
         <li>Sibling descendants (child class) of a base class will all have the same interface but varying implementations.</li>
         <li>When you are not sure of the objects type at runtime and the most specific method is called.</li>
         <li>Therefore the behavior of the method called may differ, depending on the objects type at runtime.</li>
@@ -141,7 +141,7 @@ let seriousBusinessPerson = {
 ---
 
 ## **Personal Projects to refine specific areas of study**
-1. [Jest](https://www.youtube.com/watch?v=ajiAl5UNzBU&list=PLKBmYB72-EUh5w_qHFOJBiuVesSzRj_4R&index=2) | Learn to test your Javascript application
+[x] 1. [Jest](https://www.youtube.com/watch?v=ajiAl5UNzBU&list=PLKBmYB72-EUh5w_qHFOJBiuVesSzRj_4R&index=2) | Learn to test your Javascript application
 2. [WebSockets](https://www.youtube.com/watch?v=8ARodQ4Wlf4&list=PLKBmYB72-EUh5w_qHFOJBiuVesSzRj_4R&index=13) | A beginner's guide
 3. [AWS](https://www.youtube.com/watch?v=-FtcnssIpzQ&list=PLKBmYB72-EUh5w_qHFOJBiuVesSzRj_4R&index=23) | Certified Cloud Practioner Complete Video Course
 4. [API's](https://www.youtube.com/watch?v=GZvSYJDk-us&list=PLKBmYB72-EUh5w_qHFOJBiuVesSzRj_4R&index=25) | API's for beginner's; how to use an API(Full Course/Tut)
