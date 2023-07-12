@@ -8,7 +8,7 @@ export const metadata = {
 export default function AboutLayout({ children }) {
   return (
     
-      <div className='random'>{children}</div>
+      <div className='font-sans text-8xl'>{children}</div>
     
   )
 }
