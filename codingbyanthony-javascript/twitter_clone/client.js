@@ -5,11 +5,18 @@ console.log(`Welcome to the Spiderverse!`)
 
 // get a reference to the form
 // anytime you see document that is client side JS
-const from = document.querySelector('form')
+const form = document.querySelector('form')
 
 // listen to when the user clicks submit using an event listener
 // grab the data from the textarea
-from.addEventListener('submit', (event) => {
+form.addEventListener('submit', (event) => {
     event.preventDefault()
-    console.log(`form was submitted`)
+    const formData = new FormData(form)
+    const name = formData.get('name')
+    const content = formData.get('content')
+    const spideyThwip = {
+        name,
+        content
+    }
+    console.log(spideyThwip)
 })
