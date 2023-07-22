@@ -10,6 +10,7 @@ const form = document.querySelector('form')
 // hide the logo when it thr form is now loading messages
 const loadingElement = document.querySelector('.loading')
 // whent hepage loads, hide the loading animation
+// when we submit the form, hide the message and show the loading gif
 loadingElement.style.display = 'none';
 
 // listen to when the user clicks submit using an event listener
@@ -19,9 +20,12 @@ form.addEventListener('submit', (event) => {
     const formData = new FormData(form)
     const name = formData.get('name')
     const content = formData.get('content')
+
     const spideyThwip = {
         name,
         content
     }
     console.log(spideyThwip)
+    form.style.display = 'none';
+    loadingElement.style.display = '';
 })
