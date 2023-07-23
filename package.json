@@ -1,5 +1,16 @@
 {
+  "scripts": {
+    "start": "node codingbyanthony-javascript/twitter_clone/server/index.js",
+    "dev": "nodemon codingbyanthony-javascript/twitter_clone/server/index.js"
+  },
   "dependencies": {
-    "firebase": "^9.16.0"
+    "cors": "^2.8.5",
+    "epxress": "^0.0.1-security",
+    "express": "^4.18.2",
+    "firebase": "^9.16.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
