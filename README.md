@@ -118,6 +118,14 @@ let seriousBusinessPerson = {
     Make a class from another class for a hierarchy of classes that share a set of properties and methods. 
 </p>
 
+# Server
+```javascript
+// JSON bodyparser
+// any incoming request that has a content-type of application/json
+// will be parsed by the middleware and put on the body
+app.use(express.json());
+```
+
 
 ## Polymorphism
 <p>
