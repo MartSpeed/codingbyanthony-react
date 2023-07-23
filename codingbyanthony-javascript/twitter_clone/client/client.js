@@ -32,7 +32,7 @@ form.addEventListener('submit', (event) => {
     loadingElement.style.display = '';
 
     //
-    fetch(API_URL{
+    fetch(API_URL, {
         method: 'POST',
         body: JSON.stringify(spideyThwip),
         headers: {
