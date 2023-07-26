@@ -6,9 +6,6 @@
 const aboutEl = 'About';
 
 const About = () => {
-  return (
-    'About'
-  )
 }
 
 export default About;
